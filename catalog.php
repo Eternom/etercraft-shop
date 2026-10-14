@@ -10,7 +10,7 @@
  * Déclencheurs : purchase (achat), renewal (renouvellement), expiration, refund (remboursement), chargeback (litige).
  */
 
-$server = 'Survie';
+$server = 'survival';
 
 /** Commande lancée sur le serveur, joueur connecté requis ou non, répétée ou non selon la quantité achetée. */
 $run = fn (string $trigger, array $commands, bool $online = false, bool $ignoreQuantity = true) => [

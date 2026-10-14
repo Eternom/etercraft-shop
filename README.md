@@ -16,7 +16,7 @@ Catalogue de la boutique du site (Azuriom, plugin Shop) et outils pour l'install
   renouvellement arrive en retard), retiré à l'expiration, au remboursement ou au litige.
 - **Avantages temporaires = commandes d'usage seulement** (/craft, /back…). Homes et hôtel des ventes : paliers
   définitifs « jusqu'à N », dans l'ordre, retirés si le paiement est annulé.
-- Les commandes passent par AzLink sur le serveur `Survie` (nom dans Administration → Serveurs).
+- Les commandes passent par AzLink sur le serveur `survival` (nom dans Administration → Serveurs).
 - Un achat donne le grade du site « Soutien » ; un grade du site n'est jamais abaissé par un achat (puissance).
 
 ## Utilisation (VPS)
