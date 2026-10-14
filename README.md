@@ -1,12 +1,14 @@
-# Boutique EterCraft
+# Site EterCraft
 
-Catalogue de la boutique du site (Azuriom, plugin Shop) et outils pour l'installer.
+Contenu du site Azuriom d'EterCraft et outils pour l'installer : catalogue de la boutique (plugin Shop), wiki
+(plugin Wiki), suivi des commandes en attente.
 
 | Fichier | Rôle |
 |---|---|
 | `catalog.php` | Le catalogue : grades du site, recharges de points, catégories, articles et leurs commandes |
 | `import.php` | Crée ou met à jour tout le catalogue dans Azuriom (relançable) |
 | `pending.php` | Commandes en attente (boutique, votes) et état d'AzLink, par serveur (lecture seule) |
+| `wiki.php` · `wiki/` | Le wiki : un fichier Markdown par catégorie, importé dans le plugin Wiki (relançable) |
 | `bootstrap.php` | Démarre Azuriom pour ces scripts |
 | `luckperms.txt` | Groupes LuckPerms des grades, à créer une fois sur le serveur |
 
@@ -20,6 +22,16 @@ Catalogue de la boutique du site (Azuriom, plugin Shop) et outils pour l'install
   définitifs « jusqu'à N », dans l'ordre, retirés si le paiement est annulé.
 - Les commandes passent par AzLink sur le serveur `survival` (nom dans Administration → Serveurs).
 - Un achat donne le grade du site « Soutien » ; un grade du site n'est jamais abaissé par un achat (puissance).
+
+## Le wiki
+
+`wiki/` : un fichier par catégorie, dans l'ordre des noms. Première ligne `# Nom | slug | icône`, puis chaque page
+commence par `=== Titre | slug` et s'écrit en Markdown (tableaux compris). Liens entre pages : `/wiki/<catégorie>/<page>`.
+Page retirée d'un fichier : la supprimer dans l'admin (l'import ne supprime rien).
+
+```bash
+runuser -u www-data -- php /opt/etercraft-shop/wiki.php /var/www/azuriom
+```
 
 ## Utilisation (VPS)
 
