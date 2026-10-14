@@ -68,7 +68,8 @@ En haut, ta tête affiche tes informations du moment : ton **solde**, ton **mét
 
 | Rubrique | Ce qu'on y trouve |
 |---|---|
-| Progression | Succès, défis, classements, pass de saison, récompense du jour, kits |
+| Progression | Succès, défis, classements, pass de saison, récompense du jour |
+| Kits | Tes [kits](/wiki/progression/kits) de la semaine (au centre, à côté d'Outils) |
 | Voyager | Tes homes, le monde ressource, la téléportation aléatoire, aller vers un joueur, faire venir un joueur |
 | Social | Réglages du chat, joueurs ignorés, notifications, messages privés, signaler un joueur, tes appels |
 | Économie | Ton solde, payer un joueur, les plus riches |

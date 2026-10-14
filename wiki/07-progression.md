@@ -30,7 +30,7 @@ Ce qui ne rentre pas dans ton inventaire est posé à tes pieds. Réclamer ta r�
 
 ## Un kit par semaine
 
-Ouvre tes kits depuis le menu (**Progression → Kits**) ou avec `/kit`. Chaque kit se réclame **une fois tous les 7 jours**, sur n'importe quel serveur : il arrive directement dans ton inventaire. Le délai est le même partout, changer de serveur n'en donne pas un de plus.
+Ouvre tes kits depuis le menu (bouton **Kits**, au centre) ou avec `/kit`. Chaque kit se réclame **une fois tous les 7 jours**, sur n'importe quel serveur : il arrive directement dans ton inventaire. Le délai est le même partout, changer de serveur n'en donne pas un de plus.
 
 Dans le menu, **clic gauche** pour réclamer, **clic droit** pour voir le contenu avant. Chaque kit indique s'il est disponible, dans combien de temps il le sera, ou comment l'obtenir.
 

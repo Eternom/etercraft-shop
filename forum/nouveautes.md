@@ -17,7 +17,7 @@ Bon jeu à tous !
 
 ## Les kits
 
-Ouvre `/kit` (ou **Menu → Progression → Kits**) : un kit à réclamer **chaque semaine**, sur n'importe quel serveur, directement dans ton inventaire.
+Ouvre `/kit` (ou le bouton **Kits** au centre du menu) : un kit à réclamer **chaque semaine**, sur n'importe quel serveur, directement dans ton inventaire.
 
 - **Kit Joueur**, pour tout le monde : outils en pierre, nourriture, torches et charbon.
 - **Kits Aventurier, Héros et Légende** : de plus en plus d'outils (jusqu'au diamant enchanté pour Légende), de provisions et de minerais.
