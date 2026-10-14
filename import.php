@@ -5,7 +5,7 @@
  * Relançable à volonté : ce qui existe déjà (même slug de catégorie, même nom d'article, d'offre ou de grade) est mis
  * à jour, rien n'est supprimé. Les articles retirés du catalogue sont à désactiver à la main dans l'admin.
  *
- * Usage, sur le VPS :   sudo -u www-data php import.php /var/www/azuriom
+ * Usage, sur le VPS :   runuser -u www-data -- php import.php /var/www/azuriom
  */
 
 use Azuriom\Models\Role;
