@@ -97,6 +97,10 @@ Sur les terres d'un clan, les joueurs ne peuvent pas se frapper. En monde ressou
 
 En mourant, tu perds **5 %** des Heloks que tu as sur toi.
 
+## Quand tu meurs
+
+Tout le serveur l'apprend, avec un message (plus ou moins moqueur) selon ta mort : lave, chute, creeper, autre joueur... Toi, tu entends un son propre à ta mort, et tu reçois **une pique suivie d'une vraie astuce** pour éviter que ça recommence, ainsi que **l'endroit exact de ta mort** pour aller récupérer tes affaires.
+
 ## Protéger ton argent
 
 L'argent rangé sur ton **compte de clan** n'est pas touché par la mort. Un joueur seul peut fonder son propre clan pour en profiter : voir [La banque du clan](/wiki/clans/banque).
