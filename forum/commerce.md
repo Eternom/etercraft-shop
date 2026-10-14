@@ -21,7 +21,7 @@ Contact : (pseudo en jeu)
 
 ## Les règles
 
-- Les prix sont en **Heloks** ou en objets du jeu, **jamais en argent réel**.
+- Les prix sont en **Heloks** ou en objets du jeu, **jamais en argent réel** : entre joueurs, c'est interdit et sanctionné (voir le [règlement](/wiki/regles/reglement)). Seule la [boutique](/shop) officielle vend contre de l'argent.
 - L'échange se fait **en jeu**. Pour un gros échange, préfère l'hôtel des ventes, ou un intermédiaire de confiance.
 - Mets ton sujet à jour (ou ferme-le) une fois l'affaire conclue.
 - Voler ce qu'on t'a confié reste du vol : voir le [règlement](/wiki/regles/reglement).

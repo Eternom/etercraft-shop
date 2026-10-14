@@ -18,6 +18,7 @@ EterCraft est un serveur pour jouer ensemble, dans le respect. Le règlement vau
 | **Grief / vol** | Ne détruis pas et ne vole pas ce que les autres ont construit ou rangé. |
 | **Triche** | Pas de client modifié, de mod qui donne un avantage, de macro ou d'auto-clic. |
 | **Exploitation de bug** | Un bug trouvé se signale au staff, il ne s'exploite pas (duplication, etc.). |
+| **Commerce en argent réel** | Ne vends et n'achète rien contre de l'argent réel entre joueurs (objets, Heloks, services, comptes). Seule la [boutique](/shop) officielle vend contre de l'argent. |
 | **Contournement** | Pas de second compte pour échapper à une sanction. |
 | **Évasion** | Ne t'échappe pas de prison par une triche ou une faille. |
 
@@ -54,6 +55,7 @@ La sanction dépend de la règle et du nombre de fois où tu as déjà été san
 | Grief / vol | prison 1 jour | prison 7 jours | prison définitive | |
 | Triche | prison 7 jours | prison 30 jours | prison définitive | |
 | Exploitation de bug | prison 3 jours | prison 14 jours | prison définitive | |
+| Commerce en argent réel | prison 7 jours | prison 30 jours | prison définitive | |
 | Évasion de prison | bannissement définitif | | | |
 | Contournement de sanction | bannissement définitif | | | |
 

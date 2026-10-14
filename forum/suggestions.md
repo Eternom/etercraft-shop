@@ -23,7 +23,7 @@ Ajoute un **sondage** à ton sujet pour que la communauté donne son avis.
 ## Ce qu'on ne retiendra pas
 
 - Ce qui rend le jeu **plus facile** sans contrepartie : EterCraft reste un serveur de survie.
-- Ce qui donnerait un avantage contre de l'argent réel.
+- Ce qui donnerait un avantage au combat contre de l'argent réel.
 - Les demandes de grade, d'objets ou d'argent.
 
 ## Le suivi
