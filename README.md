@@ -6,6 +6,8 @@ Catalogue de la boutique du site (Azuriom, plugin Shop) et outils pour l'install
 |---|---|
 | `catalog.php` | Le catalogue : grades du site, recharges de points, catégories, articles et leurs commandes |
 | `import.php` | Crée ou met à jour tout le catalogue dans Azuriom (relançable) |
+| `pending.php` | Commandes en attente (boutique, votes) et état d'AzLink, par serveur (lecture seule) |
+| `bootstrap.php` | Démarre Azuriom pour ces scripts |
 | `luckperms.txt` | Groupes LuckPerms des grades, à créer une fois sur le serveur |
 
 ## Principes
@@ -24,6 +26,12 @@ Catalogue de la boutique du site (Azuriom, plugin Shop) et outils pour l'install
 ```bash
 cd /opt/etercraft-shop && git pull
 runuser -u www-data -- php import.php /var/www/azuriom
+```
+
+Récompense ou achat pas reçu : voir ce qui attend, éventuellement pour un joueur :
+
+```bash
+runuser -u www-data -- php /opt/etercraft-shop/pending.php /var/www/azuriom [pseudo]
 ```
 
 Modifier un prix ou un texte : changer `catalog.php`, pousser, puis relancer l'import. Un article retiré du catalogue

@@ -14,20 +14,9 @@ use Azuriom\Plugin\Shop\Models\Category;
 use Azuriom\Plugin\Shop\Models\Gateway;
 use Azuriom\Plugin\Shop\Models\Offer;
 use Azuriom\Plugin\Shop\Models\Package;
-use Illuminate\Contracts\Console\Kernel;
 use Illuminate\Support\Facades\DB;
 
-$azuriom = rtrim($argv[1] ?? '/var/www/azuriom', '/');
-
-if (! is_file($azuriom.'/artisan')) {
-    fwrite(STDERR, "Azuriom introuvable dans {$azuriom}\n");
-    exit(1);
-}
-
-// Démarre Azuriom comme une commande artisan : base, réglages et plugins chargés
-require $azuriom.'/vendor/autoload.php';
-$app = require $azuriom.'/bootstrap/app.php';
-$app->make(Kernel::class)->bootstrap();
+require __DIR__.'/bootstrap.php';
 
 if (! plugins()->isEnabled('shop')) {
     fwrite(STDERR, "Le plugin Shop n'est pas activé.\n");
