@@ -52,14 +52,15 @@ Un grade dure **un mois** et se **renouvelle tout seul** sur ton solde de points
 | Atelier (`/anvil` `/smithing` `/grindstone` `/stonecutter`) et `/furnace` | | ✔ | ✔ |
 | `/back` après la mort | | | ✔ |
 | Pass de saison **premium** chaque mois | | | ✔ |
+| [Kit](/wiki/progression/kits) chaque semaine | Aventurier | Héros | Légende |
 | Clés de monde ressource par mois | 1 | 2 | 4 |
 | Délai du `/rtp` | 30 min | 20 min | 10 min |
 
-Chaque grade comprend tout ce que donne le précédent. Pris séparément, ses avantages coûteraient bien plus cher.
+Chaque grade comprend tout ce que donne le précédent, sauf le kit : chacun a le sien, plus grand. Pris séparément, ses avantages coûteraient bien plus cher.
 
 ## Ce qu'un grade ne donne pas
 
-Ni argent, ni équipement, ni avantage au combat : du confort et du style. Les homes et les places à l'hôtel des ventes s'achètent à part, **définitivement** : voir [Les avantages](/wiki/boutique/avantages).
+Ni argent, ni arme, ni armure, ni avantage au combat : du confort, des outils et du style. Les homes et les places à l'hôtel des ventes s'achètent à part, **définitivement** : voir [Les avantages](/wiki/boutique/avantages).
 
 === Les avantages | avantages
 
@@ -74,6 +75,16 @@ Racheter un accès encore actif ajoute 30 jours.
 | `/furnace` | 199 points |
 | `/back` | 249 points |
 | Pack Atelier (`/anvil`, `/smithing`, `/grindstone`, `/stonecutter`) | 399 points |
+
+## Kits (30 jours)
+
+L'accès à un [kit](/wiki/progression/kits), à réclamer une fois par semaine avec `/kit`. Racheter un accès encore actif ajoute 30 jours.
+
+| Avantage | Prix |
+|---|---|
+| Kit Aventurier | 199 points |
+| Kit Héros | 349 points |
+| Kit Légende | 499 points |
 
 ## Ressources
 

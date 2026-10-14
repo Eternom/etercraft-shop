@@ -26,13 +26,43 @@ Chaque jour propose plusieurs récompenses possibles : une seule sort, au hasard
 
 Ce qui ne rentre pas dans ton inventaire est posé à tes pieds. Réclamer ta récompense donne aussi **300 XP** au [pass de saison](/wiki/progression/pass-de-saison).
 
+=== Les kits | kits
+
+## Un kit par semaine
+
+Ouvre tes kits depuis le menu (**Progression → Kits**) ou avec `/kit`. Chaque kit se réclame **une fois tous les 7 jours**, sur n'importe quel serveur : il arrive directement dans ton inventaire. Le délai est le même partout, changer de serveur n'en donne pas un de plus.
+
+Dans le menu, **clic gauche** pour réclamer, **clic droit** pour voir le contenu avant. Chaque kit indique s'il est disponible, dans combien de temps il le sera, ou comment l'obtenir.
+
+## Les kits
+
+| Kit | Pour qui | Contenu |
+|---|---|---|
+| **De départ** | les nouveaux joueurs, une seule fois | outils en pierre, armure en cuir, 16 pains, 16 torches, 32 bûches, un lit, un coffre |
+| **Joueur** | tout le monde | pioche et hache en pierre, 8 steaks, 16 torches, 16 charbons |
+| **Aventurier** | grade [Aventurier](/wiki/boutique/grades), boutique, pass | pioche, hache et pelle en fer, cisailles, 16 steaks, 32 torches, 32 charbons, 32 bûches, 8 lingots de fer |
+| **Héros** | grade Héros, boutique, pass | pioche, hache, pelle et houe en fer *Efficacité I*, cisailles, canne à pêche *Appât I*, 32 steaks, 64 torches, 64 charbons, 64 bûches, 16 lingots de fer, 8 lingots d'or |
+| **Légende** | grade Légende, boutique, pass | pioche, hache, pelle et houe en diamant *Efficacité II, Solidité II*, cisailles, canne à pêche *Appât II, Chance de la mer I*, 64 steaks, 64 torches, 64 charbons, 64 bûches, 32 lingots de fer, 16 lingots d'or |
+
+Chaque grade donne **son** kit (le Héros a le kit Héros, pas le kit Aventurier en plus). Le kit Joueur reste à tout le monde.
+
+## Les obtenir
+
+- **Un grade** : son kit chaque semaine, tant que le grade est actif ([voir les grades](/wiki/boutique/grades)).
+- **La boutique** : l'accès à un kit pour 30 jours ([voir les avantages](/wiki/boutique/avantages)).
+- **Le [pass de saison](/wiki/progression/pass-de-saison)** : certains paliers donnent l'accès à un kit pour quelques jours. Avec 3 jours d'accès, tu peux le réclamer une fois ; avec 7 jours, une ou deux fois.
+
+## La place
+
+Tout le kit doit rentrer dans ton inventaire : sinon, il n'est pas donné (rien n'est perdu) et le menu te dit combien de cases libérer. Les kits ne sont pas disponibles en prison.
+
 === Le pass de saison | pass-de-saison
 
 ## Un pass par mois
 
-Chaque mois, un pass est tiré au hasard parmi **8 pass à thème** (jamais le même que le mois d'avant), le même pour tout le serveur. Il compte **30 paliers** ; chaque palier demande **1 200 XP**. Ouvre-le depuis le menu (**Progression → Pass de saison**) ou avec `/pass`.
+Chaque mois, un pass est tiré au hasard parmi **10 pass à thème** (jamais le même que le mois d'avant), le même pour tout le serveur. Il compte **30 paliers** ; chaque palier demande **1 200 XP**. Ouvre-le depuis le menu (**Progression → Pass de saison**) ou avec `/pass`.
 
-## Les 8 pass et leur bonus
+## Les 10 pass et leur bonus
 
 | Pass | Son bonus |
 |---|---|
@@ -44,6 +74,8 @@ Chaque mois, un pass est tiré au hasard parmi **8 pass à thème** (jamais le m
 | La Foire marchande | toutes les quêtes : +25 % d'XP |
 | La Nuit des lanternes | récompense du jour : XP doublée |
 | Le Grand voyage | temps de jeu : jusqu'à 800 XP par jour au lieu de 500 |
+| Les Épreuves | défis du jour et de la semaine : +50 % d'XP |
+| Le Ravitaillement | votes : XP de pass doublée ; le pass le plus riche en [kits](/wiki/progression/kits) |
 
 ## Gagner de l'XP
 
@@ -59,7 +91,7 @@ Rester immobile ne rapporte rien : seul le temps où tu joues vraiment compte.
 
 ## Les récompenses
 
-Chaque palier a une récompense **gratuite**, et une **premium** pour les joueurs qui ont le pass premium. Les récompenses peuvent être de l'argent, des objets, des clés du monde ressource, ou l'accès pour un temps à des [outils portatifs](/wiki/boutique/outils-portatifs) ou à `/back`.
+Chaque palier a une récompense **gratuite**, et une **premium** pour les joueurs qui ont le pass premium. Les récompenses peuvent être de l'argent, des objets, des clés du monde ressource, ou l'accès pour un temps à des [outils portatifs](/wiki/boutique/outils-portatifs), à `/back` ou à un [kit](/wiki/progression/kits) : chaque pass donne l'accès au kit Aventurier (gratuit), Héros (premium) et Légende (premium, dernier palier).
 
 Réclame-les depuis le menu du pass : **celles qui ne sont pas réclamées à la fin du mois sont perdues.**
 
@@ -81,6 +113,8 @@ Chaque jour, **3 défis du jour** ; chaque semaine, **3 défis de la semaine** (
 |---|---|
 | Du jour | 100 XP de pass et 30 Heloks |
 | De la semaine | 300 XP de pass et 150 Heloks |
+
+Pendant le pass [Les Épreuves](/wiki/progression/pass-de-saison), les défis rapportent **50 % d'XP de pass en plus**.
 
 Retrouve-les dans le menu (**Progression → Défis**) ou avec `/defis`. Les défis réussis comptent pour le [classement du mois](/wiki/progression/classements).
 
@@ -161,6 +195,8 @@ Chaque vote tire **une** récompense au hasard :
 | 100 Heloks | 45 % |
 | 100 XP de pass | 40 % |
 | 1 clé de monde ressource | 15 % |
+
+Pendant le pass [Le Ravitaillement](/wiki/progression/pass-de-saison), l'XP de pass des votes est **doublée**.
 
 Tu peux voter sur **chaque site**, une fois par jour par site.
 

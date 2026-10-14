@@ -1,6 +1,8 @@
 # Groupes LuckPerms des grades de la boutique. À lancer UNE fois, dans la console du serveur survie
 # (LuckPerms partage sa base sur le réseau : les groupes valent partout).
 # Héros hérite d'Aventurier, Légende de Héros : chaque grade ne liste que ce qu'il ajoute.
+# Kits (EterKit) : chaque grade a SON kit, pas ceux d'en dessous (héritage coupé par « false »). Un kit acheté à part
+# dans la boutique est une permission du joueur : elle passe avant celle du groupe.
 # Le délai /rtp le plus court l'emporte (EterRtp 1.2.0+). Préfixes en MiniMessage, l'espace est ajouté par EterTab.
 
 lp creategroup aventurier
@@ -10,6 +12,7 @@ lp group aventurier permission set eterchat.color true
 lp group aventurier permission set eteressential.craft true
 lp group aventurier permission set eteressential.enderchest true
 lp group aventurier permission set eteressential.back true
+lp group aventurier permission set eterkit.kit.aventurier true
 
 lp creategroup heros
 lp group heros setweight 20
@@ -21,6 +24,8 @@ lp group heros permission set eteressential.grindstone true
 lp group heros permission set eteressential.stonecutter true
 lp group heros permission set eteressential.furnace true
 lp group heros permission set eterrtp.cooldown.20 true
+lp group heros permission set eterkit.kit.heros true
+lp group heros permission set eterkit.kit.aventurier false
 
 lp creategroup legende
 lp group legende setweight 30
@@ -28,3 +33,12 @@ lp group legende parent add heros
 lp group legende meta setprefix 30 "<#FF7A00>Légende"
 lp group legende permission set eteressential.back.death true
 lp group legende permission set eterrtp.cooldown.10 true
+lp group legende permission set eterkit.kit.legende true
+lp group legende permission set eterkit.kit.heros false
+
+# --- Mise à jour EterKit (2026-10-14) : groupes déjà créés, lancer seulement ces lignes, une par une ---
+# lp group aventurier permission set eterkit.kit.aventurier true
+# lp group heros permission set eterkit.kit.heros true
+# lp group heros permission set eterkit.kit.aventurier false
+# lp group legende permission set eterkit.kit.legende true
+# lp group legende permission set eterkit.kit.heros false

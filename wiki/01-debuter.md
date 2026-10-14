@@ -26,6 +26,10 @@ Accroupis-toi et appuie sur **F** : le [menu](/wiki/debuter/menu) ouvre tout le 
 
 === Premiers pas | premiers-pas
 
+## Ton kit de départ
+
+À ta toute première arrivée, tu reçois un **kit de départ** : outils en pierre, armure en cuir, nourriture, torches, bois, un lit et un coffre. Il te suffit d'avoir de la place dans ton inventaire ; sinon, réclame-le plus tard avec `/kit`. Ensuite, un [kit chaque semaine](/wiki/progression/kits) t'attend.
+
 ## Le guide de départ
 
 Les Premiers pas te guident pas à pas. Chaque étape réussie rapporte de l'argent, et la suivante s'affiche dans ton [tableau de bord](/wiki/debuter/tableau-de-bord), à droite de l'écran. Ils font partie de tes [succès](/wiki/progression/succes) (`/succes`).
@@ -45,6 +49,7 @@ Les Premiers pas te guident pas à pas. Chaque étape réussie rapporte de l'arg
 ## Les bons réflexes
 
 - **Chaque jour** : ta [récompense du jour](/wiki/progression/recompense-du-jour), tes [quêtes de métier](/wiki/metiers/quetes) et tes [défis](/wiki/progression/defis).
+- **Chaque semaine** : ton [kit](/wiki/progression/kits) (`/kit`).
 - **Protège ta maison** : un joueur seul peut fonder son propre [clan](/wiki/clans/fonder) et revendiquer ses terres. Les 9 premiers chunks sont gratuits.
 - **Mets ton argent à l'abri** : en mourant, tu perds 5 % de ce que tu as sur toi, mais pas ce qui est sur ton [compte de clan](/wiki/clans/banque).
 - **Mine ailleurs** : le [monde ressource](/wiki/ressource/acces) est fait pour ça. Garde ton monde beau.
@@ -63,7 +68,7 @@ En haut, ta tête affiche tes informations du moment : ton **solde**, ton **mét
 
 | Rubrique | Ce qu'on y trouve |
 |---|---|
-| Progression | Succès, défis, classements, pass de saison, récompense du jour |
+| Progression | Succès, défis, classements, pass de saison, récompense du jour, kits |
 | Voyager | Tes homes, le monde ressource, la téléportation aléatoire, aller vers un joueur, faire venir un joueur |
 | Social | Réglages du chat, joueurs ignorés, notifications, messages privés, signaler un joueur, tes appels |
 | Économie | Ton solde, payer un joueur, les plus riches |
@@ -158,6 +163,7 @@ Presque tout se fait depuis le menu : **accroupi + F**, ou `/menu`. Les commande
 |---|---|
 | `/money` · `/pay <joueur> <montant>` | Ton solde, payer un joueur |
 | `/daily` | Récompense du jour |
+| `/kit` | Tes kits (un par semaine) |
 | `/pass` | Pass de saison |
 | `/defis` | Défis du jour et de la semaine |
 | `/succes` | Tes succès |

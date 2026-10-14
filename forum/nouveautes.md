@@ -12,3 +12,28 @@ Crée ton compte **avec ton pseudo Minecraft** pour que tes votes arrivent au bo
 Les prochaines nouveautés seront publiées dans ce forum : abonne-toi pour ne rien manquer. Une remarque sur le site ? Réponds à ce sujet.
 
 Bon jeu à tous !
+
+=== Les kits arrivent, et deux nouveaux pass
+
+## Les kits
+
+Ouvre `/kit` (ou **Menu → Progression → Kits**) : un kit à réclamer **chaque semaine**, sur n'importe quel serveur, directement dans ton inventaire.
+
+- **Kit Joueur**, pour tout le monde : outils en pierre, nourriture, torches et charbon.
+- **Kits Aventurier, Héros et Légende** : de plus en plus d'outils (jusqu'au diamant enchanté pour Légende), de provisions et de minerais.
+- **Kit de départ** pour les nouveaux joueurs, donné à leur arrivée.
+
+Clic droit dans le menu pour voir le contenu avant de réclamer. Tout est détaillé sur le [wiki](/wiki/progression/kits).
+
+Les kits de grade s'obtiennent avec le grade, en accès de 30 jours dans la [boutique](/shop), ou quelques jours grâce au pass de saison.
+
+## Deux nouveaux pass de saison
+
+Dix pass tournent maintenant chaque mois :
+
+- **Les Épreuves** : les défis rapportent **50 % d'XP en plus**.
+- **Le Ravitaillement** : l'XP de pass des **votes est doublée**, et c'est le pass le plus riche en accès aux kits.
+
+Tous les pass donnent désormais l'accès aux kits Aventurier, Héros et Légende à certains paliers.
+
+Une question, un souci ? Réponds à ce sujet.
