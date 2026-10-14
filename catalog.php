@@ -62,6 +62,7 @@ return [
         ['name' => '500 points', 'price' => 5, 'money' => 500],
         ['name' => '1 050 points', 'price' => 10, 'money' => 1050],
         ['name' => '2 200 points', 'price' => 20, 'money' => 2200],
+        ['name' => '5 750 points', 'price' => 50, 'money' => 5750],
     ],
 
     'categories' => [

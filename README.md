@@ -10,7 +10,7 @@ Catalogue de la boutique du site (Azuriom, plugin Shop) et outils pour l'install
 
 ## Principes
 
-- **Argent du site** : 1 point = 1 centime TTC. Les joueurs rechargent (5, 10 ou 20 €), puis achètent tout en points,
+- **Argent du site** : 1 point = 1 centime TTC. Les joueurs rechargent (5, 10, 20 ou 50 €, bonus de 0 à 15 %), puis achètent tout en points,
   abonnements compris. Les frais de paiement (Stripe) ne s'appliquent qu'à la recharge.
 - **Grades = abonnements mensuels**, renouvelés sur le solde ; groupe LuckPerms temporaire de 32 jours (une marge si le
   renouvellement arrive en retard), retiré à l'expiration, au remboursement ou au litige.
