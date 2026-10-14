@@ -1,7 +1,7 @@
 # Site EterCraft
 
 Contenu du site Azuriom d'EterCraft et outils pour l'installer : catalogue de la boutique (plugin Shop), wiki
-(plugin Wiki), suivi des commandes en attente.
+(plugin Wiki), forum (plugin Forum), suivi des commandes en attente.
 
 | Fichier | Rôle |
 |---|---|
@@ -9,6 +9,7 @@ Contenu du site Azuriom d'EterCraft et outils pour l'installer : catalogue de la
 | `import.php` | Crée ou met à jour tout le catalogue dans Azuriom (relançable) |
 | `pending.php` | Commandes en attente (boutique, votes) et état d'AzLink, par serveur (lecture seule) |
 | `wiki.php` · `wiki/` | Le wiki : un fichier Markdown par catégorie, importé dans le plugin Wiki (relançable) |
+| `forum.php` · `forum/` | Le forum : catégories, forums, étiquettes et sujets de départ (relançable) |
 | `bootstrap.php` | Démarre Azuriom pour ces scripts |
 | `luckperms.txt` | Groupes LuckPerms des grades, à créer une fois sur le serveur |
 
@@ -31,6 +32,17 @@ Page retirée d'un fichier : la supprimer dans l'admin (l'import ne supprime rie
 
 ```bash
 runuser -u www-data -- php /opt/etercraft-shop/wiki.php /var/www/azuriom
+```
+
+## Le forum
+
+Le forum ne répète pas le wiki : le wiki dit comment marche le serveur, le forum garde ce que la communauté produit
+(nouveautés, suggestions, bugs, clans, créations, commerce) et le recrutement du staff. `forum.php` décrit catégories,
+forums (verrouillé : seul le staff ouvre des sujets ; privé : chacun ne voit que ses sujets) et étiquettes d'état ;
+`forum/<slug>.md` contient les sujets de départ (`=== Titre | épinglé, verrouillé`, puis Markdown).
+
+```bash
+runuser -u www-data -- php /opt/etercraft-shop/forum.php /var/www/azuriom NadTum
 ```
 
 ## Utilisation (VPS)
