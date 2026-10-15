@@ -169,16 +169,27 @@ Les gagnants sont prévenus où qu'ils soient, et annoncés sur tout le serveur.
 | Quêtes du mois | les quêtes de métier validées ce mois-ci |
 | Votes du mois | tes votes ce mois-ci |
 | Temps de jeu du mois | ton temps de jeu actif ce mois-ci |
-| Temps de jeu total | ton temps de jeu actif depuis toujours |
 | Points de succès | depuis toujours |
 | Fortune | ton argent |
 | Clans | les plus grands territoires |
 
 Retrouve-les tous dans **Progression → Classements**, ou avec `/classement`.
 
+## Les statistiques
+
+Le bouton **Statistiques** du menu des classements, ou `/stats`, montre **tous les joueurs** venus sur le serveur, du plus grand temps de jeu au plus petit. Clique sur un joueur pour voir sa fiche, depuis toujours :
+
+| Fiche | Ce qu'elle compte |
+|---|---|
+| Temps de jeu | ton temps de jeu actif, et ta date d'arrivée |
+| Combat | tes morts, les joueurs et les monstres que tu as tués, ton ratio joueurs tués / morts |
+| Récolte | blocs minés (naturels), cultures récoltées, prises de pêche, animaux élevés |
+
+`/stats <pseudo>` ouvre directement la fiche d'un joueur, même hors ligne.
+
 ## Le temps de jeu
 
-Seul le temps où tu joues **vraiment** compte : une minute n'est comptée que si tu as regardé autour de toi ou parlé. Rester AFK, même dans un courant d'eau ou un wagonnet, ne fait pas monter le compteur.
+Pour le classement du mois et les statistiques, seul le temps où tu joues **vraiment** compte : une minute n'est comptée que si tu as regardé autour de toi ou parlé. Rester AFK, même dans un courant d'eau ou un wagonnet, ne fait pas monter le compteur.
 
 ## Le podium
 

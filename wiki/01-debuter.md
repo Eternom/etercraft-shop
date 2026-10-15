@@ -170,6 +170,7 @@ Presque tout se fait depuis le menu : **accroupi + F**, ou `/menu`. Les commande
 | `/defis` | Défis du jour et de la semaine |
 | `/succes` | Tes succès |
 | `/classement` | Les classements |
+| `/stats [joueur]` | Les statistiques des joueurs |
 | `/clan` | Ton clan |
 
 ## Social
