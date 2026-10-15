@@ -87,6 +87,12 @@ Sur ton territoire, seuls les membres, selon leurs permissions, peuvent construi
 
 En entrant sur un territoire, son nom s'affiche au-dessus de ta barre d'objets.
 
+## Savoir ce qui est permis
+
+Le menu `/clan` a une page **Règles du territoire** : ce que **toi** tu peux faire sur le terrain du clan (construire, coffres, portes, redstone, cultures, animaux), ce que tu peux faire **là où tu te tiens**, et les protections toujours actives.
+
+Une **parcelle louée** a ses propres règles : seuls son locataire et ceux qu'il autorise y agissent, jamais les permissions du clan. Voir [Les parcelles](/wiki/clans/parcelles).
+
 === La banque | banque
 
 ## Deux sortes d'argent
@@ -96,7 +102,7 @@ En entrant sur un territoire, son nom s'affiche au-dessus de ta barre d'objets.
 | **Ton compte** | à toi seul | ton épargne, **protégée de la perte d'argent à la mort** |
 | **La réserve** | au clan | payer les terres et l'entretien |
 
-Tout membre peut **donner** à la réserve ; seuls ceux qui ont la permission **Réserve** peuvent y **prendre**.
+Tout membre peut **donner** à la réserve, après **5 heures de jeu** ; seuls ceux qui ont la permission **Réserve** peuvent y **prendre**.
 
 ## L'intérêt
 
@@ -136,6 +142,17 @@ Le **tag** de ton clan s'affiche à côté de ton pseudo, partout sur le réseau
 
 Tu préfères afficher ton grade plutôt que le tag du clan ? Clique sur ta tête dans le menu `/clan` pour choisir.
 
-## Le classement
+## Le classement du mois
 
-Les clans aux plus grands territoires ont leur [classement](/wiki/progression/classements).
+Chaque mois, les clans sont classés sur **4 critères**, comme le classement général des joueurs : dans chacun, une note sur 100 selon la place du clan, puis la moyenne.
+
+| Critère | Ce qu'il compte ce mois-ci |
+|---|---|
+| **Activité** | le temps de jeu actif des membres (sans AFK) |
+| **Travail** | les quêtes de métier et les défis des membres |
+| **Trésor** | l'argent donné à la réserve, **moins** ce qui en est repris |
+| **Expansion** | les chunks pris, **moins** ceux rendus ou perdus |
+
+Donner puis reprendre, ou prendre puis rendre des chunks, ne rapporte donc rien. À la fin du mois, le **top 3** gagne de l'argent versé dans sa réserve : **3 000**, **2 000** et **1 000 Heloks**.
+
+Tout est visible dans `/clan` → **Classement du mois**, et dans les [classements](/wiki/progression/classements) (« Clans du mois »).

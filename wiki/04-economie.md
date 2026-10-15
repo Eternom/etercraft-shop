@@ -91,7 +91,7 @@ L'hôtel des ventes est un PNJ : vends tes objets aux autres joueurs, sur tout l
 
 ## Acheter
 
-Cherche un objet par son nom, clique, confirme. Tu payes, l'objet est à toi.
+Cherche un objet par son nom, clique, confirme. Tu payes, l'objet est à toi. Acheter est possible après **5 heures de jeu** (le menu te dit combien il en manque).
 
 ## Être payé
 

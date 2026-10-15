@@ -171,7 +171,7 @@ Les gagnants sont prévenus où qu'ils soient, et annoncés sur tout le serveur.
 | Temps de jeu du mois | ton temps de jeu actif ce mois-ci |
 | Points de succès | depuis toujours |
 | Fortune | ton argent |
-| Clans | les plus grands territoires |
+| Clans du mois | le classement des clans : activité, travail, trésor et expansion ([voir le guide](/wiki/clans/tag)) |
 
 Retrouve-les tous dans **Progression → Classements**, ou avec `/classement`.
 
