@@ -4,7 +4,7 @@
 
 ## Une récompense par jour
 
-Chaque jour, réclame ta récompense depuis le menu (**Progression → Récompense du jour**) ou avec `/daily`. Le jour change à **minuit**, heure de Paris, et la récompense vaut pour tout le réseau : une seule par jour, quel que soit le serveur. Un message te la rappelle à la connexion.
+Chaque jour, réclame ta récompense depuis le menu (**Progression → Récompense du jour**) ou avec `/daily`. Elle se débloque après **15 minutes de jeu** dans la journée. Le jour change à **minuit**, heure de Paris, et la récompense vaut pour tout le réseau : une seule par jour, quel que soit le serveur. Un message te la rappelle à la connexion.
 
 ## Une série de 7 jours
 

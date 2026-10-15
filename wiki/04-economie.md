@@ -24,7 +24,7 @@ Les **Heloks** sont la monnaie du serveur, la même sur tout le réseau. Ton sol
 
 ## Payer un joueur
 
-Depuis le menu (**Économie → Payer un joueur**) : choisis le joueur, puis le montant. Ça marche même s'il est hors ligne ou sur un autre serveur. En commande : `/pay <joueur> <montant>`.
+Depuis le menu (**Économie → Payer un joueur**) : choisis le joueur, puis le montant. Ça marche même s'il est hors ligne ou sur un autre serveur. En commande : `/pay <joueur> <montant>`. Envoyer de l'argent est possible après **5 heures de jeu**.
 
 ## Épargner
 
