@@ -144,7 +144,7 @@ Seuls les blocs naturels comptent : poser un bloc puis le recasser ne fait rien 
 
 ## Le classement général du mois
 
-Il réunit **quatre classements du mois** : les **paliers du pass** (premium ou non), les **défis réussis**, les **quêtes de métier** validées et les **votes**. Dans chacun, ta place te donne une note sur 100 (premier = 100) ; le général est la moyenne des quatre.
+Il réunit **cinq classements du mois** : les **paliers du pass** (premium ou non), les **défis réussis**, les **quêtes de métier** validées, les **votes** et le **temps de jeu actif**. Dans chacun, ta place te donne une note sur 100 (premier = 100) ; le général est la moyenne des cinq.
 
 C'est ta **place** qui compte, pas la quantité : aucun classement n'écrase les autres. Tout repart à zéro chaque mois : nouveau venu ou ancien, tout le monde a sa chance.
 
@@ -168,11 +168,17 @@ Les gagnants sont prévenus où qu'ils soient, et annoncés sur tout le serveur.
 | Défis du mois | les défis réussis ce mois-ci |
 | Quêtes du mois | les quêtes de métier validées ce mois-ci |
 | Votes du mois | tes votes ce mois-ci |
+| Temps de jeu du mois | ton temps de jeu actif ce mois-ci |
+| Temps de jeu total | ton temps de jeu actif depuis toujours |
 | Points de succès | depuis toujours |
 | Fortune | ton argent |
 | Clans | les plus grands territoires |
 
 Retrouve-les tous dans **Progression → Classements**, ou avec `/classement`.
+
+## Le temps de jeu
+
+Seul le temps où tu joues **vraiment** compte : une minute n'est comptée que si tu as regardé autour de toi ou parlé. Rester AFK, même dans un courant d'eau ou un wagonnet, ne fait pas monter le compteur.
 
 ## Le podium
 
