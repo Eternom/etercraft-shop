@@ -182,7 +182,7 @@ Les cinq premiers du classement général ont leur statue sur le podium, en jeu,
 
 ## Voter pour le serveur
 
-Chaque vote fait connaître EterCraft à de nouveaux joueurs, et te rapporte une récompense en jeu. Vote depuis la page **[Vote](/vote)** du site : clique sur un site de vote, vote, puis reviens sur notre site.
+Chaque vote fait connaître EterCraft à de nouveaux joueurs, et te rapporte une récompense en jeu. Vote depuis la page **[Vote](/vote)** du site (en jeu, `/vote` te donne le lien) : clique sur un site de vote, vote, puis reviens sur notre site. Seuls les votes lancés depuis notre page comptent.
 
 Pas besoin d'être connecté au serveur : ta récompense t'attend, même si tu es au lobby ou hors ligne.
 

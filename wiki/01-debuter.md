@@ -165,6 +165,7 @@ Presque tout se fait depuis le menu : **accroupi + F**, ou `/menu`. Les commande
 | `/money` · `/pay <joueur> <montant>` | Ton solde, payer un joueur |
 | `/daily` | Récompense du jour |
 | `/kit` | Tes kits (un par semaine) |
+| `/vote` | Le lien vers la page de vote du site |
 | `/pass` | Pass de saison |
 | `/defis` | Défis du jour et de la semaine |
 | `/succes` | Tes succès |
