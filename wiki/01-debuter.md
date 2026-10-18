@@ -130,6 +130,24 @@ Entrer dans un **portail du Nether** du lobby ouvre aussi le sélecteur de serve
 
 Ton inventaire est le **même au lobby et en survie** : tu peux y utiliser tes objets. Il te suit d'un serveur à l'autre.
 
+=== Passer la nuit | nuit
+
+## Pas besoin que tout le monde dorme
+
+Il suffit que **la moitié des joueurs actifs** du monde soient au lit. Les joueurs **AFK** (5 minutes sans bouger, regarder autour d'eux ni parler) ne comptent pas, ni le staff invisible : un joueur parti chercher à boire ne bloque plus la nuit.
+
+Un joueur au lit compte toujours, même immobile.
+
+## Se coucher
+
+Quand tu te couches, le chat l'annonce à tout le monde (« NadTum est au lit (1/2) »), et la barre au-dessus de tes objets affiche combien de joueurs sont au lit et combien il en faut.
+
+Tu peux aussi dormir pendant un **orage**, même en pleine journée.
+
+## Le matin
+
+Dès qu'il y a assez de joueurs au lit, la nuit défile en quelques secondes. Au matin, **la pluie s'arrête**, et ceux qui ont dormi sont tranquilles : pas de **phantoms**.
+
 === Toutes les commandes | commandes
 
 ## Le menu avant tout
@@ -206,6 +224,10 @@ Surtout avec les [quêtes de métier](/wiki/metiers/quetes), puis l'[hôtel des 
 ## Je perds quoi en mourant ?
 
 **5 %** de l'argent que tu as sur toi. Ce qui est sur ton [compte de clan](/wiki/clans/banque) ne bouge pas. Voir [Combat et mort](/wiki/regles/combat-et-mort).
+
+## Faut-il que tout le monde dorme pour passer la nuit ?
+
+Non : la moitié des joueurs actifs suffit, les joueurs AFK ne comptent pas. Voir [Passer la nuit](/wiki/debuter/nuit).
 
 ## Mon inventaire est le même partout ?
 

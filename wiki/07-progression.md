@@ -191,6 +191,8 @@ Le bouton **Statistiques** du menu des classements, ou `/stats`, montre **tous l
 
 Pour le classement du mois et les statistiques, seul le temps où tu joues **vraiment** compte : une minute n'est comptée que si tu as regardé autour de toi ou parlé. Rester AFK, même dans un courant d'eau ou un wagonnet, ne fait pas monter le compteur.
 
+Tu es **AFK** après **5 minutes** sans marcher, tourner la tête, agir ni parler. Un joueur AFK ne bloque pas non plus la [nuit](/wiki/debuter/nuit).
+
 ## Le podium
 
 Les cinq premiers du classement général ont leur statue sur le podium, en jeu, avec leur skin et leur score, mise à jour en direct.
@@ -201,7 +203,7 @@ Les cinq premiers du classement général ont leur statue sur le podium, en jeu,
 
 Chaque vote fait connaître EterCraft à de nouveaux joueurs, et te rapporte une récompense en jeu. Vote depuis la page **[Vote](/vote)** du site (en jeu, `/vote` te donne le lien) : clique sur un site de vote, vote, puis reviens sur notre site. Seuls les votes lancés depuis notre page comptent.
 
-Pas besoin d'être connecté au serveur : ta récompense t'attend, même si tu es au lobby ou hors ligne.
+Pas besoin d'être connecté au serveur : ta récompense est versée tout de suite, même si tu es au lobby ou hors ligne. Si tu n'étais pas là, un message te dit à ta prochaine connexion ce que tes votes t'ont rapporté. Une clé de monde ressource qui ne peut pas t'être remise tout de suite n'est pas perdue : elle arrive à ton prochain passage sur un serveur qui en distribue.
 
 ## Ce qu'un vote rapporte
 
