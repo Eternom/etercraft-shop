@@ -3,11 +3,12 @@
 # Héros hérite d'Aventurier, Légende de Héros : chaque grade ne liste que ce qu'il ajoute.
 # Kits (EterKit) : chaque grade a SON kit, pas ceux d'en dessous (héritage coupé par « false »). Un kit acheté à part
 # dans la boutique est une permission du joueur : elle passe avant celle du groupe.
-# Le délai /rtp le plus court l'emporte (EterRtp 1.2.0+). Préfixes en MiniMessage, l'espace est ajouté par EterTab.
+# Le délai /rtp le plus court l'emporte (EterRtp 1.2.0+). Préfixes en MiniMessage, entre crochets comme les tags de clan
+# ([Fondateur], [DUCHE]) ; l'espace est ajouté par EterTab.
 
 lp creategroup aventurier
 lp group aventurier setweight 10
-lp group aventurier meta setprefix 10 "<#7FB3FF>Aventurier"
+lp group aventurier meta setprefix 10 "<#7FB3FF>[Aventurier]"
 lp group aventurier permission set eterchat.color true
 lp group aventurier permission set eteressential.craft true
 lp group aventurier permission set eteressential.enderchest true
@@ -17,7 +18,7 @@ lp group aventurier permission set eterkit.kit.aventurier true
 lp creategroup heros
 lp group heros setweight 20
 lp group heros parent add aventurier
-lp group heros meta setprefix 20 "<#B57BFF>Héros"
+lp group heros meta setprefix 20 "<#B57BFF>[Héros]"
 lp group heros permission set eteressential.anvil true
 lp group heros permission set eteressential.smithing true
 lp group heros permission set eteressential.grindstone true
@@ -30,7 +31,7 @@ lp group heros permission set eterkit.kit.aventurier false
 lp creategroup legende
 lp group legende setweight 30
 lp group legende parent add heros
-lp group legende meta setprefix 30 "<#FF7A00>Légende"
+lp group legende meta setprefix 30 "<#FF7A00>[Légende]"
 lp group legende permission set eteressential.back.death true
 lp group legende permission set eterrtp.cooldown.10 true
 lp group legende permission set eterkit.kit.legende true
@@ -51,7 +52,7 @@ lp group legende permission set eterkit.kit.heros false
 
 lp creategroup guide
 lp group guide setweight 100
-lp group guide meta setprefix 100 "<#5BE38A>Guide"
+lp group guide meta setprefix 100 "<#5BE38A>[Guide]"
 lp group guide permission set eter.display.staff true
 lp group guide permission set eterchat.staff true
 lp group guide permission set eter.mod.use true
@@ -65,7 +66,7 @@ lp group guide permission set eter.mod.motive.inappropriate true
 lp creategroup moderateur
 lp group moderateur setweight 110
 lp group moderateur parent add guide
-lp group moderateur meta setprefix 110 "<gradient:#4FC3F7:#1E88E5>Modérateur"
+lp group moderateur meta setprefix 110 "<gradient:#4FC3F7:#1E88E5>[Modérateur]"
 lp group moderateur permission set eter.mod.mute true
 lp group moderateur permission set eter.mod.jail true
 lp group moderateur permission set eter.mod.motive.threat true
@@ -84,7 +85,7 @@ lp group moderateur permission set eterchat.bypass.msgtoggle true
 lp creategroup superviseur
 lp group superviseur setweight 120
 lp group superviseur parent add moderateur
-lp group superviseur meta setprefix 120 "<gradient:#FF6B6B:#C62828><bold>Superviseur"
+lp group superviseur meta setprefix 120 "<gradient:#FF6B6B:#C62828><bold>[Superviseur]"
 lp group superviseur permission set eter.mod.ban true
 lp group superviseur permission set eter.mod.motive.cheat true
 lp group superviseur permission set eter.mod.motive.exploit true
@@ -110,7 +111,7 @@ lp group superviseur permission set eter.bypass true
 lp creategroup admin
 lp group admin setweight 200
 lp group admin parent add superviseur
-lp group admin meta setprefix 200 "<gradient:#FFD54F:#FF8F00><bold>Admin"
+lp group admin meta setprefix 200 "<gradient:#FFD54F:#FF8F00><bold>[Admin]"
 lp group admin permission set eter.mod.* true
 lp group admin permission set eterchat.admin true
 lp group admin permission set eterclan.admin true
@@ -136,3 +137,19 @@ lp group admin permission set etervelocitybroadcast.broadcast true
 
 # Donner un grade du staff à un joueur (le retirer : parent remove) :
 # lp user <pseudo> parent add moderateur
+
+# --- Crochets ajoutés aux préfixes (2026-10-19) : groupes déjà créés, lancer seulement ces lignes ---
+# lp group guide meta removeprefix 100
+# lp group guide meta setprefix 100 "<#5BE38A>[Guide]"
+# lp group moderateur meta removeprefix 110
+# lp group moderateur meta setprefix 110 "<gradient:#4FC3F7:#1E88E5>[Modérateur]"
+# lp group superviseur meta removeprefix 120
+# lp group superviseur meta setprefix 120 "<gradient:#FF6B6B:#C62828><bold>[Superviseur]"
+# lp group admin meta removeprefix 200
+# lp group admin meta setprefix 200 "<gradient:#FFD54F:#FF8F00><bold>[Admin]"
+# lp group aventurier meta removeprefix 10
+# lp group aventurier meta setprefix 10 "<#7FB3FF>[Aventurier]"
+# lp group heros meta removeprefix 20
+# lp group heros meta setprefix 20 "<#B57BFF>[Héros]"
+# lp group legende meta removeprefix 30
+# lp group legende meta setprefix 30 "<#FF7A00>[Légende]"
