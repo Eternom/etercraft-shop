@@ -42,3 +42,97 @@ lp group legende permission set eterkit.kit.heros false
 # lp group heros permission set eterkit.kit.aventurier false
 # lp group legende permission set eterkit.kit.legende true
 # lp group legende permission set eterkit.kit.heros false
+
+# ============================================================
+#  Grades du staff (2026-10-19). Même principe : chaque grade hérite du précédent et ne liste que ce qu'il ajoute.
+#  Poids 100+ : au-dessus des grades de la boutique, le grade du staff s'affiche même avec Légende.
+#  Les permissions du proxy (etertab, etervelocity*, eter.mod.prison.visit) demandent LuckPerms sur Velocity, même base.
+# ============================================================
+
+lp creategroup guide
+lp group guide setweight 100
+lp group guide meta setprefix 100 "<#5BE38A>Guide"
+lp group guide permission set eter.display.staff true
+lp group guide permission set eterchat.staff true
+lp group guide permission set eter.mod.use true
+lp group guide permission set eter.mod.history true
+lp group guide permission set eter.mod.alerts true
+lp group guide permission set eter.mod.warn true
+lp group guide permission set eter.mod.motive.spam true
+lp group guide permission set eter.mod.motive.insult true
+lp group guide permission set eter.mod.motive.inappropriate true
+
+lp creategroup moderateur
+lp group moderateur setweight 110
+lp group moderateur parent add guide
+lp group moderateur meta setprefix 110 "<gradient:#4FC3F7:#1E88E5>Modérateur"
+lp group moderateur permission set eter.mod.mute true
+lp group moderateur permission set eter.mod.jail true
+lp group moderateur permission set eter.mod.motive.threat true
+lp group moderateur permission set eter.mod.motive.advertising true
+lp group moderateur permission set eter.mod.motive.grief true
+lp group moderateur permission set eter.mod.reports true
+lp group moderateur permission set eter.mod.chatlog true
+lp group moderateur permission set eter.mod.notes true
+lp group moderateur permission set eter.mod.freeze true
+lp group moderateur permission set eter.mod.staff true
+lp group moderateur permission set eter.vanish.see true
+lp group moderateur permission set etersleep.ignore true
+lp group moderateur permission set eteressential.find true
+lp group moderateur permission set eterchat.bypass.msgtoggle true
+
+lp creategroup superviseur
+lp group superviseur setweight 120
+lp group superviseur parent add moderateur
+lp group superviseur meta setprefix 120 "<gradient:#FF6B6B:#C62828><bold>Superviseur"
+lp group superviseur permission set eter.mod.ban true
+lp group superviseur permission set eter.mod.motive.cheat true
+lp group superviseur permission set eter.mod.motive.exploit true
+lp group superviseur permission set eter.mod.motive.real-money true
+lp group superviseur permission set eter.mod.motive.escape true
+lp group superviseur permission set eter.mod.motive.evasion true
+lp group superviseur permission set eter.mod.free true
+lp group superviseur permission set eter.mod.permanent true
+lp group superviseur permission set eter.mod.lift true
+lp group superviseur permission set eter.mod.appeals true
+lp group superviseur permission set eter.mod.alts true
+lp group superviseur permission set eterchat.socialspy true
+lp group superviseur permission set eterchat.prisonchat.see true
+lp group superviseur permission set eter.mod.prison.visit true
+lp group superviseur permission set eteressential.invsee true
+lp group superviseur permission set eteressential.endersee true
+lp group superviseur permission set eterhome.others.view true
+lp group superviseur permission set eterhome.others.teleport true
+lp group superviseur permission set eteressential.tp true
+lp group superviseur permission set eteressential.tphere true
+lp group superviseur permission set eter.bypass true
+
+lp creategroup admin
+lp group admin setweight 200
+lp group admin parent add superviseur
+lp group admin meta setprefix 200 "<gradient:#FFD54F:#FF8F00><bold>Admin"
+lp group admin permission set eter.mod.* true
+lp group admin permission set eterchat.admin true
+lp group admin permission set eterclan.admin true
+lp group admin permission set eterclan.bypass.claims true
+lp group admin permission set etereconomy.admin true
+lp group admin permission set eteressential.admin true
+lp group admin permission set eterhome.admin true
+lp group admin permission set eterhub.admin true
+lp group admin permission set eterkit.admin true
+lp group admin permission set etermarket.admin true
+lp group admin permission set eternpc.admin true
+lp group admin permission set eterresource.admin true
+lp group admin permission set eterreward.admin true
+lp group admin permission set eterrtp.admin true
+lp group admin permission set etersuccess.admin true
+lp group admin permission set etersync.admin true
+lp group admin permission set etertab.admin true
+lp group admin permission set etertab.maintenance.bypass true
+lp group admin permission set etervelocitylobby.admin true
+lp group admin permission set etervelocitymoderation.admin true
+lp group admin permission set etervelocityresource.admin true
+lp group admin permission set etervelocitybroadcast.broadcast true
+
+# Donner un grade du staff à un joueur (le retirer : parent remove) :
+# lp user <pseudo> parent add moderateur
