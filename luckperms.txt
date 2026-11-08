@@ -58,6 +58,7 @@ lp group guide permission set eterchat.staff true
 lp group guide permission set eter.mod.use true
 lp group guide permission set eter.mod.history true
 lp group guide permission set eter.mod.alerts true
+lp group guide permission set eter.mod.freeze.exempt true
 lp group guide permission set eter.mod.warn true
 lp group guide permission set eter.mod.motive.spam true
 lp group guide permission set eter.mod.motive.insult true
@@ -152,6 +153,7 @@ lp group admin permission set etervelocitybroadcast.broadcast true
 
 # --- Fin de la prison (2026-11-08, EterModeration 2.0.0) : groupes déjà créés, lancer seulement ces lignes ---
 # Le modérateur bannit pour un temps (grief, menaces, pub) ; un ban définitif reste au superviseur (eter.mod.permanent).
+# lp group guide permission set eter.mod.freeze.exempt true
 # lp group moderateur permission unset eter.mod.jail
 # lp group moderateur permission set eter.mod.ban true
 # lp group superviseur permission unset eter.mod.ban
