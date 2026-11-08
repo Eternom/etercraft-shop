@@ -58,7 +58,7 @@ lp group guide permission set eterchat.staff true
 lp group guide permission set eter.mod.use true
 lp group guide permission set eter.mod.history true
 lp group guide permission set eter.mod.alerts true
-lp group guide permission set eter.mod.freeze.exempt true
+lp group guide permission set eter.mod.protected true
 lp group guide permission set eter.mod.warn true
 lp group guide permission set eter.mod.motive.spam true
 lp group guide permission set eter.mod.motive.insult true
@@ -77,6 +77,10 @@ lp group moderateur permission set eter.mod.reports true
 lp group moderateur permission set eter.mod.chatlog true
 lp group moderateur permission set eter.mod.notes true
 lp group moderateur permission set eter.mod.freeze true
+lp group moderateur permission set eter.mod.kick true
+lp group moderateur permission set eter.mod.invsee true
+lp group moderateur permission set eter.mod.watch true
+lp group moderateur permission set eter.mod.spectate true
 lp group moderateur permission set eter.mod.staff true
 lp group moderateur permission set eter.vanish.see true
 lp group moderateur permission set etersleep.ignore true
@@ -94,6 +98,10 @@ lp group superviseur permission set eter.mod.motive.evasion true
 lp group superviseur permission set eter.mod.free true
 lp group superviseur permission set eter.mod.permanent true
 lp group superviseur permission set eter.mod.lift true
+lp group superviseur permission set eter.mod.change true
+lp group superviseur permission set eter.mod.sanction.staff true
+lp group superviseur permission set eter.mod.ban.alts true
+lp group superviseur permission set eter.mod.staffstats true
 lp group superviseur permission set eter.mod.appeals true
 lp group superviseur permission set eter.mod.alts true
 lp group superviseur permission set eterchat.socialspy true
@@ -153,10 +161,23 @@ lp group admin permission set etervelocitybroadcast.broadcast true
 
 # --- Fin de la prison (2026-11-08, EterModeration 2.0.0) : groupes déjà créés, lancer seulement ces lignes ---
 # Le modérateur bannit pour un temps (grief, menaces, pub) ; un ban définitif reste au superviseur (eter.mod.permanent).
-# lp group guide permission set eter.mod.freeze.exempt true
+# lp group guide permission set eter.mod.protected true
 # lp group moderateur permission unset eter.mod.jail
 # lp group moderateur permission set eter.mod.ban true
 # lp group superviseur permission unset eter.mod.ban
 # lp group superviseur permission unset eter.mod.motive.escape
 # lp group superviseur permission unset eterchat.prisonchat.see
 # lp group superviseur permission unset eter.mod.prison.visit
+
+# --- Modération 2.1 (2026-11-08, EterModeration 2.1.0) : groupes déjà créés, lancer seulement ces lignes ---
+# Le staff protégé (ni gel ni sanction sans eter.mod.sanction.staff) remplace eter.mod.freeze.exempt.
+# lp group guide permission unset eter.mod.freeze.exempt
+# lp group guide permission set eter.mod.protected true
+# lp group moderateur permission set eter.mod.kick true
+# lp group moderateur permission set eter.mod.invsee true
+# lp group moderateur permission set eter.mod.watch true
+# lp group moderateur permission set eter.mod.spectate true
+# lp group superviseur permission set eter.mod.change true
+# lp group superviseur permission set eter.mod.sanction.staff true
+# lp group superviseur permission set eter.mod.ban.alts true
+# lp group superviseur permission set eter.mod.staffstats true

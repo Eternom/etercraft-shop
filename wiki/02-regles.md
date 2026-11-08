@@ -23,7 +23,13 @@ EterCraft est un serveur pour jouer ensemble, dans le respect. Le règlement vau
 
 ## Le filtre du chat
 
-Le chat bloque automatiquement les gros mots, le flood et les messages répétés. Insister déclenche une sanction automatique.
+Le chat bloque automatiquement les gros mots (même écrits « c o n n a r d » ou « c0nn4rd »), le flood, les messages répétés et les adresses de serveurs ou de sites. Le filtre lit aussi les **panneaux**, les **livres** et les **noms donnés à l'enclume**. Insister déclenche une sanction automatique.
+
+Un message du chat te choque ? **Clique dessus** pour le signaler : le staff reçoit tes derniers messages et ceux de l'auteur.
+
+## Le gel
+
+Si un membre du staff te **gèle**, tu ne peux plus bouger : il veut te parler (souvent pour vérifier une triche). Reste connecté et réponds-lui dans le chat, qui ne va qu'au staff. **Se déconnecter pendant un gel est sanctionné** (voir le barème).
 
 ## Les sanctions
 
@@ -31,17 +37,18 @@ Chaque règle a son barème, de la première fois à la récidive : voir [Sancti
 
 === Sanctions et appels | sanctions-et-appels
 
-## Les trois sanctions
+## Les sanctions
 
 | Sanction | Effet |
 |---|---|
-| **Avertissement** | noté dans ton historique, il compte pour la récidive |
-| **Mute** | plus de chat ni de messages privés, pour une durée |
+| **Avertissement** | noté dans ton historique, il compte pour la récidive ; à ta connexion, tu cliques « J'ai compris » |
+| **Expulsion** | tu es déconnecté du réseau ; tu peux revenir tout de suite |
+| **Mute** | plus de chat, de messages privés, de panneaux ni de livres, pour une durée |
 | **Bannissement** | accès refusé au réseau, pour une durée ou définitivement |
 
 ## Le barème
 
-La sanction dépend de la règle et du nombre de fois où tu as déjà été sanctionné pour elle (sanctions non levées). Au-delà de la dernière étape, la dernière se répète.
+La sanction dépend de la règle et du nombre de fois où tu as déjà été sanctionné pour elle ces **6 derniers mois** (sanctions non levées) : un vieux casier s'efface. Au-delà de la dernière étape, la dernière se répète.
 
 | Règle | 1re fois | 2e fois | 3e fois | 4e fois | 5e fois |
 |---|---|---|---|---|---|
@@ -55,6 +62,9 @@ La sanction dépend de la règle et du nombre de fois où tu as déjà été san
 | Exploitation de bug | ban 3 jours | ban 14 jours | ban définitif | | |
 | Commerce en argent réel | ban 7 jours | ban 30 jours | ban définitif | | |
 | Contournement de sanction | ban définitif | | | | |
+| Déconnexion pendant un gel | ban 7 jours | ban 30 jours | ban définitif | | |
+
+Un ban définitif est toujours validé par **deux** membres du staff.
 
 ## Faire appel
 
