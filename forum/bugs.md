@@ -4,7 +4,7 @@ Quelque chose ne marche pas comme prévu ? Un bon signalement nous permet de cor
 
 ## Une faille ? Pas ici
 
-Un bug qui donne un avantage (**duplication d'objets**, argent gratuit, contournement d'une protection, d'un délai ou de la prison) **ne se poste pas sur le forum** : tout le monde pourrait l'utiliser. Envoie-le en privé à un membre du staff, sur le Discord ou en jeu.
+Un bug qui donne un avantage (**duplication d'objets**, argent gratuit, contournement d'une protection ou d'un délai) **ne se poste pas sur le forum** : tout le monde pourrait l'utiliser. Envoie-le en privé à un membre du staff, sur le Discord ou en jeu.
 
 L'exploiter au lieu de le signaler est sanctionné : voir le [règlement](/wiki/regles/reglement).
 

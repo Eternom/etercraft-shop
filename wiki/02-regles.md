@@ -20,7 +20,6 @@ EterCraft est un serveur pour jouer ensemble, dans le respect. Le règlement vau
 | **Exploitation de bug** | Un bug trouvé se signale au staff, il ne s'exploite pas (duplication, etc.). |
 | **Commerce en argent réel** | Ne vends et n'achète rien contre de l'argent réel entre joueurs (objets, Heloks, services, comptes). Seule la [boutique](/shop) officielle vend contre de l'argent. |
 | **Contournement** | Pas de second compte pour échapper à une sanction. |
-| **Évasion** | Ne t'échappe pas de prison par une triche ou une faille. |
 
 ## Le filtre du chat
 
@@ -32,32 +31,30 @@ Chaque règle a son barème, de la première fois à la récidive : voir [Sancti
 
 === Sanctions et appels | sanctions-et-appels
 
-## Les quatre sanctions
+## Les trois sanctions
 
 | Sanction | Effet |
 |---|---|
 | **Avertissement** | noté dans ton historique, il compte pour la récidive |
 | **Mute** | plus de chat ni de messages privés, pour une durée |
-| **Prison** | tu ne peux plus jouer que sur le serveur prison, pour une durée ou définitivement |
-| **Bannissement** | accès refusé au réseau ; seulement pour une évasion de prison ou un contournement de sanction |
+| **Bannissement** | accès refusé au réseau, pour une durée ou définitivement |
 
 ## Le barème
 
 La sanction dépend de la règle et du nombre de fois où tu as déjà été sanctionné pour elle (sanctions non levées). Au-delà de la dernière étape, la dernière se répète.
 
-| Règle | 1re fois | 2e fois | 3e fois | 4e fois |
-|---|---|---|---|---|
-| Spam / flood | avertissement | mute 10 min | mute 1 h | mute 1 jour |
-| Insultes / irrespect | avertissement | mute 1 h | mute 1 jour | prison 1 jour |
-| Menaces | mute 1 jour | mute 7 jours | prison 7 jours | |
-| Publicité | mute 1 jour | prison 3 jours | prison 14 jours | |
-| Contenu inapproprié | avertissement | prison 1 jour | prison 7 jours | |
-| Grief / vol | prison 1 jour | prison 7 jours | prison définitive | |
-| Triche | prison 7 jours | prison 30 jours | prison définitive | |
-| Exploitation de bug | prison 3 jours | prison 14 jours | prison définitive | |
-| Commerce en argent réel | prison 7 jours | prison 30 jours | prison définitive | |
-| Évasion de prison | bannissement définitif | | | |
-| Contournement de sanction | bannissement définitif | | | |
+| Règle | 1re fois | 2e fois | 3e fois | 4e fois | 5e fois |
+|---|---|---|---|---|---|
+| Spam / flood | avertissement | mute 10 min | mute 1 h | mute 1 jour | |
+| Insultes / irrespect | avertissement | mute 1 h | mute 1 jour | mute 7 jours | ban 3 jours |
+| Menaces | mute 1 jour | mute 7 jours | ban 7 jours | | |
+| Publicité | mute 1 jour | mute 7 jours | ban 7 jours | | |
+| Contenu inapproprié | avertissement | ban 1 jour | ban 7 jours | | |
+| Grief / vol | ban 1 jour | ban 7 jours | ban 30 jours | ban définitif | |
+| Triche | ban 7 jours | ban 30 jours | ban définitif | | |
+| Exploitation de bug | ban 3 jours | ban 14 jours | ban définitif | | |
+| Commerce en argent réel | ban 7 jours | ban 30 jours | ban définitif | | |
+| Contournement de sanction | ban définitif | | | | |
 
 ## Faire appel
 
@@ -66,6 +63,8 @@ Une sanction te semble injuste ? Fais appel depuis le menu (**Social → Mes app
 - tu y vois tes sanctions en cours et tes avertissements ;
 - **un appel par sanction**, en expliquant pourquoi ;
 - le staff te répond en jeu, et une sanction levée reste notée comme levée.
+
+Banni, tu ne peux plus entrer en jeu : fais appel sur le [Discord](https://discord.gg/eternom). L'écran du ban te rappelle le lien.
 
 === Signaler un joueur | signaler
 

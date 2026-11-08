@@ -87,7 +87,7 @@ Un exemple de code est le meilleur argument : un lien vers un dépôt vaut mieux
 
 ## Le rôle
 
-Chaque lieu du réseau se construit : **lobbys**, spawn, boutiques des marchands, prison, décors des événements. Tu donneras son identité visuelle au serveur.
+Chaque lieu du réseau se construit : **lobbys**, spawn, boutiques des marchands, décors des événements. Tu donneras son identité visuelle au serveur.
 
 ## Ce qu'on attend
 

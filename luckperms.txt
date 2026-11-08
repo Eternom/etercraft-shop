@@ -47,7 +47,7 @@ lp group legende permission set eterkit.kit.heros false
 # ============================================================
 #  Grades du staff (2026-10-19). Même principe : chaque grade hérite du précédent et ne liste que ce qu'il ajoute.
 #  Poids 100+ : au-dessus des grades de la boutique, le grade du staff s'affiche même avec Légende.
-#  Les permissions du proxy (etertab, etervelocity*, eter.mod.prison.visit) demandent LuckPerms sur Velocity, même base.
+#  Les permissions du proxy (etertab, etervelocity*) demandent LuckPerms sur Velocity, même base.
 # ============================================================
 
 lp creategroup guide
@@ -68,7 +68,7 @@ lp group moderateur setweight 110
 lp group moderateur parent add guide
 lp group moderateur meta setprefix 110 "<dark_gray>[<gradient:#4FC3F7:#1E88E5>Modérateur</gradient>]"
 lp group moderateur permission set eter.mod.mute true
-lp group moderateur permission set eter.mod.jail true
+lp group moderateur permission set eter.mod.ban true
 lp group moderateur permission set eter.mod.motive.threat true
 lp group moderateur permission set eter.mod.motive.advertising true
 lp group moderateur permission set eter.mod.motive.grief true
@@ -86,11 +86,9 @@ lp creategroup superviseur
 lp group superviseur setweight 120
 lp group superviseur parent add moderateur
 lp group superviseur meta setprefix 120 "<dark_gray>[<gradient:#FF6B6B:#C62828><bold>Superviseur</bold></gradient>]"
-lp group superviseur permission set eter.mod.ban true
 lp group superviseur permission set eter.mod.motive.cheat true
 lp group superviseur permission set eter.mod.motive.exploit true
 lp group superviseur permission set eter.mod.motive.real-money true
-lp group superviseur permission set eter.mod.motive.escape true
 lp group superviseur permission set eter.mod.motive.evasion true
 lp group superviseur permission set eter.mod.free true
 lp group superviseur permission set eter.mod.permanent true
@@ -98,8 +96,6 @@ lp group superviseur permission set eter.mod.lift true
 lp group superviseur permission set eter.mod.appeals true
 lp group superviseur permission set eter.mod.alts true
 lp group superviseur permission set eterchat.socialspy true
-lp group superviseur permission set eterchat.prisonchat.see true
-lp group superviseur permission set eter.mod.prison.visit true
 lp group superviseur permission set eteressential.invsee true
 lp group superviseur permission set eteressential.endersee true
 lp group superviseur permission set eterhome.others.view true
@@ -153,3 +149,12 @@ lp group admin permission set etervelocitybroadcast.broadcast true
 # lp group heros meta setprefix 20 "<dark_gray>[<#B57BFF>Héros</#B57BFF>]"
 # lp group legende meta removeprefix 30
 # lp group legende meta setprefix 30 "<dark_gray>[<#FF7A00>Légende</#FF7A00>]"
+
+# --- Fin de la prison (2026-11-08, EterModeration 2.0.0) : groupes déjà créés, lancer seulement ces lignes ---
+# Le modérateur bannit pour un temps (grief, menaces, pub) ; un ban définitif reste au superviseur (eter.mod.permanent).
+# lp group moderateur permission unset eter.mod.jail
+# lp group moderateur permission set eter.mod.ban true
+# lp group superviseur permission unset eter.mod.ban
+# lp group superviseur permission unset eter.mod.motive.escape
+# lp group superviseur permission unset eterchat.prisonchat.see
+# lp group superviseur permission unset eter.mod.prison.visit

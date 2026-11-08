@@ -54,7 +54,7 @@ Chaque grade donne **son** kit (le Héros a le kit Héros, pas le kit Aventurier
 
 ## La place
 
-Tout le kit doit rentrer dans ton inventaire : sinon, il n'est pas donné (rien n'est perdu) et le menu te dit combien de cases libérer. Les kits ne sont pas disponibles en prison.
+Tout le kit doit rentrer dans ton inventaire : sinon, il n'est pas donné (rien n'est perdu) et le menu te dit combien de cases libérer.
 
 === Le pass de saison | pass-de-saison
 
