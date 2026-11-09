@@ -219,7 +219,7 @@ Fonde un [clan](/wiki/clans/fonder), même seul, et revendique tes terres : les 
 
 ## Comment gagner de l'argent ?
 
-Surtout avec les [quêtes de métier](/wiki/metiers/quetes), puis l'[hôtel des ventes](/wiki/economie/hotel-des-ventes), les [défis](/wiki/progression/defis), les [succès](/wiki/progression/succes), les [votes](/wiki/progression/votes) et la [récompense du jour](/wiki/progression/recompense-du-jour).
+Surtout avec les [quêtes de métier](/wiki/metiers/quetes), puis les [défis](/wiki/progression/defis), les [succès](/wiki/progression/succes), les [votes](/wiki/progression/votes) et la [récompense du jour](/wiki/progression/recompense-du-jour).
 
 ## Je perds quoi en mourant ?
 

@@ -159,10 +159,8 @@ return [
                     'requires' => ['Homes : jusqu\'à 5'], 'commands' => $tier('eterhome.limit.7')],
                 ['name' => 'Homes : jusqu\'à 10', 'short' => 'Jusqu\'à 10 homes. Définitif.', 'price' => 499, 'limit' => 1,
                     'requires' => ['Homes : jusqu\'à 7'], 'commands' => $tier('eterhome.limit.10')],
-                ['name' => 'Hôtel des ventes : jusqu\'à 10', 'short' => 'Jusqu\'à 10 objets en vente en même temps (5 par défaut). Définitif.', 'price' => 349, 'limit' => 1,
-                    'commands' => $tier('etermarket.auction.listings.10')],
-                ['name' => 'Hôtel des ventes : jusqu\'à 15', 'short' => 'Jusqu\'à 15 objets en vente en même temps. Définitif.', 'price' => 349, 'limit' => 1,
-                    'requires' => ['Hôtel des ventes : jusqu\'à 10'], 'commands' => $tier('etermarket.auction.listings.15')],
+                // Hôtel des ventes : retiré avec EterMarket (EterJob 2.0.0) ; il reviendra avec le futur plugin de commerce.
+                // Les joueurs qui ont acheté des places gardent leur permission (etermarket.auction.listings.<n>).
             ],
         ],
     ],

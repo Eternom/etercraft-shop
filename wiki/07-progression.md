@@ -149,7 +149,6 @@ Retrouve-les dans le menu (**Progression → Défis**) ou avec `/defis`. Les dé
 | Légendes | vaincre les créatures les plus redoutables |
 | Métiers | les quêtes de ta guilde |
 | Défis et pass | les défis réussis, les paliers du pass |
-| Commerce | vendre et acheter à l'hôtel des ventes |
 | Clans | agrandir le territoire de ton clan |
 | Richesse | ta fortune |
 | Aventure | temps de jeu, monde ressource, homes, enchantements, séries de récompenses du jour... |

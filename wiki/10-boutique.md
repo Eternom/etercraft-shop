@@ -61,7 +61,7 @@ Chaque grade comprend tout ce que donne le précédent, sauf le kit : chacun a l
 
 ## Ce qu'un grade ne donne pas
 
-Ni argent, ni arme, ni armure, ni avantage au combat : du confort, des outils et du style. Les homes et les places à l'hôtel des ventes s'achètent à part, **définitivement** : voir [Les avantages](/wiki/boutique/avantages).
+Ni argent, ni arme, ni armure, ni avantage au combat : du confort, des outils et du style. Les homes s'achètent à part, **définitivement** : voir [Les avantages](/wiki/boutique/avantages).
 
 === Les avantages | avantages
 
@@ -107,8 +107,6 @@ Des paliers à débloquer dans l'ordre, une seule fois chacun.
 | Homes : jusqu'à 5 | 349 points |
 | Homes : jusqu'à 7 | 349 points |
 | Homes : jusqu'à 10 | 499 points |
-| Hôtel des ventes : jusqu'à 10 objets en vente | 349 points |
-| Hôtel des ventes : jusqu'à 15 objets en vente | 349 points |
 
 Les prix peuvent évoluer : la [boutique](/shop) fait foi.
 

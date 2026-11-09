@@ -130,7 +130,7 @@ lp group admin permission set eteressential.admin true
 lp group admin permission set eterhome.admin true
 lp group admin permission set eterhub.admin true
 lp group admin permission set eterkit.admin true
-lp group admin permission set etermarket.admin true
+lp group admin permission set eterjob.admin true
 lp group admin permission set eternpc.admin true
 lp group admin permission set eterresource.admin true
 lp group admin permission set eterreward.admin true
@@ -193,3 +193,8 @@ lp group admin permission set etervelocitybroadcast.broadcast true
 
 # --- Pass de saison 2026-11-09 (EterReward 1.12.0) : le premium suit le mois, Légende l'a tous les mois ---
 # lp group legende permission set eterreward.pass.premium.always true
+
+# --- Métiers 2026-11-09 (EterJob 2.0.0, ancien EterMarket) : groupes déjà créés, lancer seulement ces lignes ---
+# lp group admin permission unset etermarket.admin
+# lp group admin permission set eterjob.admin true
+# Créer les PNJ : /eterlib actions, /eternpc create, éditeur (eterlib.admin et eternpc.admin sont op par défaut)
