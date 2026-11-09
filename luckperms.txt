@@ -38,6 +38,7 @@ lp group legende permission set eteressential.back.death true
 lp group legende permission set eterrtp.cooldown.10 true
 lp group legende permission set eterkit.kit.legende true
 lp group legende permission set eter.teleport.warmup.0 true
+lp group legende permission set eterreward.pass.premium.always true
 lp group legende permission set eterkit.kit.heros false
 
 # --- Mise à jour EterKit (2026-10-14) : groupes déjà créés, lancer seulement ces lignes, une par une ---
@@ -189,3 +190,6 @@ lp group admin permission set etervelocitybroadcast.broadcast true
 # lp group aventurier permission set eter.teleport.warmup.2 true
 # lp group heros permission set eter.teleport.warmup.1 true
 # lp group legende permission set eter.teleport.warmup.0 true
+
+# --- Pass de saison 2026-11-09 (EterReward 1.12.0) : le premium suit le mois, Légende l'a tous les mois ---
+# lp group legende permission set eterreward.pass.premium.always true

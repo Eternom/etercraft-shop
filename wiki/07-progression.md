@@ -60,7 +60,9 @@ Tout le kit doit rentrer dans ton inventaire : sinon, il n'est pas donné (rien 
 
 ## Un pass par mois
 
-Chaque mois, un pass est tiré au hasard parmi **10 pass à thème** (jamais le même que le mois d'avant), le même pour tout le serveur. Il compte **30 paliers** ; chaque palier demande **1 200 XP**. Ouvre-le depuis le menu (**Progression → Pass de saison**) ou avec `/pass`.
+Chaque mois, un pass est tiré au hasard parmi **10 pass à thème** (jamais un des trois derniers), le même pour tout le serveur. Il compte **30 paliers** : les trois premiers vont plus vite (600, 800 et 1 000 XP), puis chaque palier demande **1 200 XP**. Ouvre-le depuis le menu (**Progression → Pass de saison**) ou avec `/pass`.
+
+Le nouveau pass est annoncé le 1er du mois, et tu peux voir un **aperçu du pass suivant** dans le menu pendant les 3 derniers jours.
 
 ## Les 10 pass et leur bonus
 
@@ -74,30 +76,43 @@ Chaque mois, un pass est tiré au hasard parmi **10 pass à thème** (jamais le 
 | La Foire marchande | toutes les quêtes : +25 % d'XP |
 | La Nuit des lanternes | récompense du jour : XP doublée |
 | Le Grand voyage | temps de jeu : jusqu'à 800 XP par jour au lieu de 500 |
-| Les Épreuves | défis du jour et de la semaine : +50 % d'XP |
+| Les Épreuves | défis et missions : +50 % d'XP |
 | Le Ravitaillement | votes : XP de pass doublée ; le pass le plus riche en [kits](/wiki/progression/kits) |
+
+Chaque pass a aussi ses **missions de la semaine** (voir les [défis](/wiki/progression/defis)).
 
 ## Gagner de l'XP
 
 | Source | XP |
 |---|---|
-| Temps de jeu **actif** | 5 XP par minute, jusqu'à 500 par jour |
+| Temps de jeu **actif** | 5 XP par minute, jusqu'à 500 par jour (750 le samedi et le dimanche) |
 | Récompense du jour | 300 |
 | Quête facile · normale · difficile ou bonus | 100 · 200 · 300 |
-| Défi du jour · de la semaine | 100 · 300 |
+| Défi du jour · de la semaine · mission du pass | 100 · 300 · 500 |
 | Vote (selon le tirage) | 100 |
+| Succès débloqué | 10 par point de succès |
+| Objectif de clan | 600 puis 1 200 pour chaque membre |
 
-Rester immobile ne rapporte rien : seul le temps où tu joues vraiment compte.
+Rester immobile ne rapporte rien : seul le temps où tu joues vraiment compte. Si tu n'as pas atteint ton plafond de temps de jeu la veille, **la moitié de ce qui reste est reportée** sur le jour.
+
+**En retard ?** Si tu es loin derrière le rythme du mois, l'XP de tes quêtes, défis, votes et récompenses du jour est **doublée** jusqu'à ce que tu rattrapes. Le menu te dit quand c'est le cas.
+
+**Objectifs de clan** : quand le palier moyen des membres de ton clan (3 membres au moins) atteint 10, puis 20, chaque membre gagne de l'XP.
+
+`/pass historique` te montre d'où vient ton XP des dernières 24 h.
 
 ## Les récompenses
 
 Chaque palier a une récompense **gratuite**, et une **premium** pour les joueurs qui ont le pass premium. Les récompenses peuvent être de l'argent, des objets, des clés du monde ressource, ou l'accès pour un temps à des [outils portatifs](/wiki/boutique/outils-portatifs), à `/back` ou à un [kit](/wiki/progression/kits) : chaque pass donne l'accès au kit Aventurier (gratuit), Héros (premium) et Légende (premium, dernier palier).
 
-Réclame-les depuis le menu du pass : **celles qui ne sont pas réclamées à la fin du mois sont perdues.**
+- **Tout réclamer** d'un clic depuis le menu, ou palier par palier. **Clic droit** sur un palier pour son détail.
+- Ce qui ne tient pas dans ton inventaire part dans ta **boîte du pass** (`/pass colis`), jamais par terre.
+- Après le 30e palier, des **paliers bonus** (un tous les 2 400 XP, 20 au plus) donnent de l'argent.
+- Les récompenses restent réclamables **7 jours après la fin du mois**.
 
 ## Le pass premium
 
-Il débloque la ligne premium jusqu'à la fin du mois en cours. Il est compris dans le grade **Légende**, ou s'achète seul dans la [boutique](/wiki/boutique/avantages).
+Il débloque la ligne premium du mois, avec un **insigne** de la saison à collectionner. Il est compris dans le grade **Légende** (tous les mois), ou s'achète dans la [boutique](/wiki/boutique/avantages) : acheté dans les 5 derniers jours du mois, **le mois suivant est compris**. Il peut aussi être offert à un autre joueur. Les récompenses premium des paliers déjà atteints se réclament dès l'achat.
 
 ## Le classement
 
@@ -107,14 +122,15 @@ Tes paliers du mois comptent dans le [classement général](/wiki/progression/cl
 
 ## Du jour et de la semaine
 
-Chaque jour, **3 défis du jour** ; chaque semaine, **3 défis de la semaine** (renouvelés le lundi à minuit). Casser de la pierre, couper du bois, récolter, vaincre des monstres, pêcher, réussir des quêtes...
+Chaque jour, **3 défis du jour** ; chaque semaine, **3 défis de la semaine** et **3 missions du pass** (renouvelés le lundi à minuit). Les missions sont plus longues et suivent le thème du [pass du mois](/wiki/progression/pass-de-saison). Casser de la pierre, couper du bois, récolter, vaincre des monstres, pêcher, réussir des quêtes...
 
 | Défi | Récompense |
 |---|---|
 | Du jour | 100 XP de pass et 30 Heloks |
 | De la semaine | 300 XP de pass et 150 Heloks |
+| Mission du pass | 500 XP de pass et 200 Heloks |
 
-Pendant le pass [Les Épreuves](/wiki/progression/pass-de-saison), les défis rapportent **50 % d'XP de pass en plus**.
+Pendant le pass [Les Épreuves](/wiki/progression/pass-de-saison), les défis et missions rapportent **50 % d'XP de pass en plus**.
 
 Retrouve-les dans le menu (**Progression → Défis**) ou avec `/defis`. Les défis réussis comptent pour le [classement du mois](/wiki/progression/classements).
 

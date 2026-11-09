@@ -141,8 +141,10 @@ return [
                     'commands' => [$run('purchase', ['eterresource givekey {player} 10'])]],
                 ['name' => 'Clé communautaire', 'short' => 'Une clé pour chaque joueur connecté, ton nom annoncé sur tout le serveur.', 'price' => 349,
                     'commands' => [$run('purchase', ['eterresource communitykey {player} 1'])]],
-                ['name' => 'Pass premium du mois', 'short' => 'La ligne premium du pass de saison, jusqu\'à la fin du mois en cours.', 'price' => 599,
+                ['name' => 'Pass premium du mois', 'short' => 'La ligne premium du pass de saison du mois, et son insigne. Acheté dans les 5 derniers jours, le mois suivant est compris.', 'price' => 599,
                     'commands' => [$run('purchase', ['eterreward pass premium {player}'])]],
+                ['name' => 'Pass premium + 5 paliers', 'short' => 'Le pass premium du mois, et 5 paliers d\'avance tout de suite.', 'price' => 899,
+                    'commands' => [$run('purchase', ['eterreward pass premium {player} 5'])]],
             ],
         ],
         [

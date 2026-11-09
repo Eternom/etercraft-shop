@@ -95,7 +95,8 @@ L'accès à un [kit](/wiki/progression/kits), à réclamer une fois par semaine 
 | Pack 5 clés | 499 points |
 | Pack 10 clés | 849 points |
 | **Clé communautaire** : une clé pour chaque joueur connecté, ton nom annoncé sur tout le serveur | 349 points |
-| Pass de saison premium du mois en cours | 599 points |
+| Pass de saison premium du mois (le mois suivant compris s'il est acheté dans les 5 derniers jours) | 599 points |
+| Pass de saison premium + 5 paliers d'avance | 899 points |
 
 ## Confort (définitif)
 
