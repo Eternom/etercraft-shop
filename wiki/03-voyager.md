@@ -27,18 +27,38 @@ Un home suit les [règles de téléportation](/wiki/voyager/regles-teleportation
 
 | Commande | Ce qu'elle fait |
 |---|---|
-| `/tpa <joueur>` | Demander à **aller** vers un joueur |
+| `/tpa <joueur>` | Demander à **aller** vers un joueur (`/tpa` seul : choisir dans la liste) |
 | `/tpahere <joueur>` | Demander à un joueur de **venir** |
-| `/tpaccept` · `/tpdeny` | Accepter ou refuser la demande reçue |
+| `/tpaccept` · `/tpdeny` (`/tpy` · `/tpn`) | Accepter ou refuser ; avec plusieurs demandes, un menu pour choisir |
+| `/tpa list` | Les demandes reçues, avec la tête de chaque joueur |
 | `/tpacancel` | Annuler ta demande |
-| `/tptoggle` | Refuser toutes les demandes (et les réaccepter) |
+| `/tpaclan` | Faire venir tous les membres connectés de ton clan |
 
-Depuis le menu (**Voyager → Aller vers un joueur** ou **Faire venir un joueur**), choisis le joueur dans la liste : il reçoit la demande et l'accepte d'un clic dans le chat.
+Depuis le menu (**Voyager**), choisis le joueur dans la liste : il reçoit la demande et l'accepte d'un clic dans le chat ([Accepter] [Refuser] [Ignorer]). Tant qu'il n'a pas répondu, un rappel reste au-dessus de sa barre d'objets.
+
+## Une fois acceptée
+
+Tu es prévenu, et un compte à rebours s'affiche au milieu de l'écran. **Tu peux bouger** : seul un coup reçu ou donné annule le départ. Si le départ échoue (combat, délai), la demande n'est pas perdue : un bouton **[Réessayer]** permet de l'accepter de nouveau.
+
+Tu arrives toujours sur un bloc sûr à côté du joueur (jamais dans la lave ni dans un mur), et personne ne peut te blesser pendant **3 secondes** (sauf si tu frappes).
+
+Entre membres d'un même clan, pas d'attente.
+
+## Qui peut t'envoyer une demande
+
+| Commande | Ce qu'elle fait |
+|---|---|
+| `/tptoggle` | Tout le monde → amis et clan seulement → personne |
+| `/tptoggle here` | Refuser (ou réaccepter) qu'on te fasse venir |
+| `/tpaignore <joueur>` | Ne plus recevoir les demandes d'un joueur |
+| `/tpaauto <joueur>` | Accepter ses demandes toutes seules (un ami) |
+| `/tpaauto clan` | Accepter toutes seules celles de ton clan |
 
 ## Bon à savoir
 
-- Une demande expire au bout de **60 secondes**.
-- Tu n'as qu'une demande en cours à la fois.
+- Une demande expire au bout de **60 secondes** ; tu es prévenu si elle expire sans réponse, ou si le joueur quitte le réseau.
+- Tu n'as qu'une demande en cours à la fois, et pas deux demandes au même joueur en moins de **10 secondes**.
+- Pas de demande à un joueur en plein combat.
 - Ça marche même si vous n'êtes pas sur le même serveur.
 
 === Téléportation aléatoire | teleportation-aleatoire
@@ -77,8 +97,8 @@ Homes, demandes entre joueurs, téléportation aléatoire, `/back` : les mêmes 
 
 | Règle | Durée |
 |---|---|
-| Attente avant de partir (bouger ou prendre un coup l'annule) | **3 secondes** |
+| Attente avant de partir (un coup reçu ou donné l'annule ; bouger aussi, sauf pour une demande entre joueurs) | **3 secondes** (moins avec un [grade](/wiki/boutique/grades)) |
 | Délai entre deux téléportations, sur tout le réseau | **30 secondes** |
 | Pas de téléportation après avoir donné ou reçu un coup, d'un joueur **ou d'un monstre** | **10 secondes** |
 
-Le compte à rebours s'affiche au-dessus de ta barre d'objets.
+Le compte à rebours s'affiche au milieu de l'écran. Une chute, la faim ou le feu n'annulent plus le départ : seulement un coup.

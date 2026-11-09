@@ -14,6 +14,7 @@ lp group aventurier permission set eteressential.craft true
 lp group aventurier permission set eteressential.enderchest true
 lp group aventurier permission set eteressential.back true
 lp group aventurier permission set eterkit.kit.aventurier true
+lp group aventurier permission set eter.teleport.warmup.2 true
 
 lp creategroup heros
 lp group heros setweight 20
@@ -26,6 +27,7 @@ lp group heros permission set eteressential.stonecutter true
 lp group heros permission set eteressential.furnace true
 lp group heros permission set eterrtp.cooldown.20 true
 lp group heros permission set eterkit.kit.heros true
+lp group heros permission set eter.teleport.warmup.1 true
 lp group heros permission set eterkit.kit.aventurier false
 
 lp creategroup legende
@@ -35,6 +37,7 @@ lp group legende meta setprefix 30 "<dark_gray>[<#FF7A00>Légende</#FF7A00>]"
 lp group legende permission set eteressential.back.death true
 lp group legende permission set eterrtp.cooldown.10 true
 lp group legende permission set eterkit.kit.legende true
+lp group legende permission set eter.teleport.warmup.0 true
 lp group legende permission set eterkit.kit.heros false
 
 # --- Mise à jour EterKit (2026-10-14) : groupes déjà créés, lancer seulement ces lignes, une par une ---
@@ -181,3 +184,8 @@ lp group admin permission set etervelocitybroadcast.broadcast true
 # lp group superviseur permission set eter.mod.sanction.staff true
 # lp group superviseur permission set eter.mod.ban.alts true
 # lp group superviseur permission set eter.mod.staffstats true
+
+# --- Téléportation 2026-11-09 (EterLib 1.21.0) : attente réduite par grade, groupes déjà créés, lancer ces lignes ---
+# lp group aventurier permission set eter.teleport.warmup.2 true
+# lp group heros permission set eter.teleport.warmup.1 true
+# lp group legende permission set eter.teleport.warmup.0 true

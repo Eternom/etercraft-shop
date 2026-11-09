@@ -55,6 +55,7 @@ Un grade dure **un mois** et se **renouvelle tout seul** sur ton solde de points
 | [Kit](/wiki/progression/kits) chaque semaine | Aventurier | Héros | Légende |
 | Clés de monde ressource par mois | 1 | 2 | 4 |
 | Délai du `/rtp` | 30 min | 20 min | 10 min |
+| Attente avant une téléportation (3 s sans grade) | 2 s | 1 s | aucune |
 
 Chaque grade comprend tout ce que donne le précédent, sauf le kit : chacun a le sien, plus grand. Pris séparément, ses avantages coûteraient bien plus cher.
 

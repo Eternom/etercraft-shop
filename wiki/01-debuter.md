@@ -173,7 +173,7 @@ Presque tout se fait depuis le menu : **accroupi + F**, ou `/menu`. Les commande
 | `/ressource` | Le monde ressource |
 | `/tpa <joueur>` · `/tpahere <joueur>` | Demander à rejoindre un joueur, ou qu'il vienne |
 | `/tpaccept` · `/tpdeny` · `/tpacancel` | Accepter, refuser, annuler une demande |
-| `/tptoggle` | Refuser toutes les demandes de téléportation |
+| `/tptoggle` | Qui peut t'envoyer une demande : tout le monde, amis et clan, personne |
 | `/back` | Retour à ta position précédente (grade ou avantage) |
 
 ## Économie et progression

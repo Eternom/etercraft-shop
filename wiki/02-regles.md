@@ -98,7 +98,7 @@ Un signalement par minute au plus.
 
 ## Le combat
 
-Donner ou recevoir un coup, d'un joueur **ou d'un monstre**, t'empêche de te téléporter pendant **10 secondes** : impossible de fuir un combat avec un home ou une téléportation. Prendre un coup pendant l'attente d'une téléportation l'annule.
+Donner ou recevoir un coup, d'un joueur **ou d'un monstre**, t'empêche de te téléporter pendant **10 secondes**, même en changeant de serveur : impossible de fuir un combat avec un home ou une téléportation. Prendre un coup pendant l'attente d'une téléportation l'annule.
 
 Sur les terres d'un clan, les joueurs ne peuvent pas se frapper. En monde ressource non plus.
 
