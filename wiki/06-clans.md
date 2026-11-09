@@ -24,9 +24,9 @@ Un membre qui en a la permission t'invite : accepte l'invitation depuis `/clan`.
 
 === Membres et permissions | permissions
 
-## Pas de rôles figés
+## Des permissions, et des rôles pour aller vite
 
-Le **chef** a tout. Chaque autre membre a **ses propres permissions**, données une par une dans le menu des membres par qui en a le droit.
+Le **chef** a tout. Chaque autre membre a **ses propres permissions**, données une par une dans le menu des membres par qui en a le droit, ou d'un coup avec un **rôle** : **Recrue** (portes, cultures, animaux), **Membre** (en plus : construire, coffres, redstone, homes), **Officier** (en plus : inviter, exclure, terrain, parcelles, accès).
 
 | Permission | Elle permet de |
 |---|---|
@@ -40,6 +40,7 @@ Le **chef** a tout. Chaque autre membre a **ses propres permissions**, données 
 | Exclure | exclure un membre |
 | Terrain | prendre ou rendre des chunks |
 | Parcelles | créer, louer et gérer les parcelles |
+| Accès | ouvrir ou fermer le terrain, vendre des passes, la liste noire |
 | Réserve | prendre de l'argent dans la réserve |
 | Intérêt | régler l'intérêt de la banque |
 | Permissions | changer les permissions des autres |
@@ -48,50 +49,97 @@ Un nouveau membre peut d'office utiliser les **portes**, les **cultures** et les
 
 === Le territoire | territoire
 
-## Revendiquer des terres
+## Le cœur, gratuit
 
-Les terres se prennent **par chunk** (16 × 16 blocs, sur toute la hauteur), **sur la survie**, depuis `/clan`. Un clan a **un seul territoire d'un seul tenant** :
+Les terres se prennent **par chunk** (16 × 16 blocs, sur toute la hauteur), **sur la survie**, depuis `/clan` (**Terrain**). Le premier chunk que ton clan prend devient son **chunk primaire** : le **carré de 3 × 3 chunks** autour est pris avec lui. Ce **cœur** est **gratuit et sans entretien**.
 
-- le premier chunk se pose où tu veux ;
-- les suivants doivent toucher un chunk du clan ;
-- rendre un chunk ne doit pas couper le territoire en deux (sauf le dernier : le clan peut alors s'installer ailleurs).
+Le cœur ne se rend pas en morceaux : seul le chef peut rendre **tout** le terrain d'un coup.
 
-`/clan` te montre aussi les bords de ton territoire en particules.
+## S'agrandir
 
-## Le prix
+| | Où | Prix |
+|---|---|---|
+| **Extension** | contre ta base (reliée au cœur) | 250 Heloks, puis 7 % de plus à chaque nouvelle (jamais plus de 3 750) |
+| **Avant-poste** | n'importe où, loin de ta base (une mine, une ferme, un portail) | une fois et demie le prix d'une extension |
 
-Les **9 premiers chunks sont gratuits**. Le 10e coûte **250 Heloks**, et chaque chunk suivant **7 % de plus** que le précédent (jamais plus de 3 750). C'est la **réserve** du clan qui paie. Rendre un chunk ne rembourse rien.
+Tout chunk hors du cœur se **paie tout de suite**, par la **réserve** du clan. Un avant-poste fait au plus **4 chunks**, et le nombre d'avant-postes dépend du **niveau** du clan :
+
+| Niveau | Il faut | Avant-postes |
+|---|---|---|
+| 1 | — | 1 |
+| 2 | 3 membres et 20 chunks | 2 |
+| 3 | 6 membres et 40 chunks | 3 |
+
+Être dans le **top 3 du classement du mois** donne un niveau de plus.
+
+Pas de chunk collé au terrain d'un autre clan (**un chunk d'écart**), ni dans les zones réservées (le spawn).
+
+## La carte
+
+Le bouton **Carte** de `/clan` montre les chunks autour de toi : **or** pour le cœur, **vert** pour ta base, **bleu** pour tes avant-postes, **rouge** pour un autre clan. Clique sur les chunks libres pour en **choisir plusieurs**, avec le prix de chacun et le total, puis prends-les d'un coup.
+
+## Rendre un chunk
+
+Un chunk payant rendu rembourse **25 %** de son prix dans la réserve. On ne peut pas rendre un chunk qui couperait ta base ou un avant-poste en deux.
 
 ## L'entretien
 
-Chaque semaine, le clan paie un entretien pour ses chunks **payants** (les 9 gratuits ne coûtent rien à garder) : par la réserve, puis par les comptes des membres. Si le clan ne peut pas payer, il perd ses chunks les plus récents.
+Chaque semaine, le clan paie un entretien pour ses chunks **payants**, par la **réserve** : 20 Heloks pour le premier, puis 4 % de plus pour chaque suivant ; un chunk d'avant-poste coûte une fois et demie plus. Le top 3 du mois paie **30 %, 20 % ou 10 % de moins**.
 
 | Territoire | Achat total | Entretien par semaine |
 |---|---|---|
-| 9 chunks | gratuit | rien |
-| 10 chunks | 250 | 20 |
-| 15 chunks | 1 789 | 143 |
-| 20 chunks | 3 947 | 315 |
-| 30 chunks | 11 217 | 896 |
+| 9 chunks (le cœur) | gratuit | rien |
+| 15 chunks | 1 788 | 132 |
+| 20 chunks | 3 946 | 268 |
+| 30 chunks | 11 217 | 638 |
+| 50 chunks | environ 53 600 | environ 2 000 |
 
-S'agrandir un peu ne coûte presque rien ; un très grand territoire coûte cher à garder.
+Si la réserve ne suffit pas, le clan est **en dette** : il a **14 jours** pour la remplir, avec des rappels. Ensuite, il perd des chunks : ses **avant-postes** d'abord, puis les chunks **les plus loin du cœur**, sans jamais couper la base. **Le cœur ne se perd jamais.**
+
+Un clan dont personne ne vient pendant **30 jours** perd ses chunks payants ; au bout de **60 jours**, tout son terrain.
+
+## Le home et le cœur
+
+- `/clan sethome` pose le **home du clan** sur votre terrain ; `/clan home` y emmène, avec les règles de téléportation habituelles.
+- Le chef peut **déplacer le cœur** sur un autre chunk de la base, une fois par mois (5 000 Heloks).
+
+## Qui entre sur ton terrain
+
+Le menu **Accès** règle le terrain :
+
+| Mode | Qui entre |
+|---|---|
+| **Ouvert** | tout le monde ; agir demande une permission |
+| **Fermé** | les membres et les invités seulement |
+| **À pass** | ceux qui ont acheté un **pass** (ou sont invités) |
+
+- **Le pass** : vous choisissez son prix, sa durée (1 à 30 jours) et ce qu'il permet (portes, redstone, cultures, animaux, coffres ; jamais construire). L'argent va dans la réserve. Posez un panneau avec **[Pass]** sur la première ligne : il devient un guichet, clic droit pour acheter. Idéal pour louer l'accès à une ferme.
+- **Les invités** : un accès gratuit pour quelques heures (1 h à 7 jours).
+- **La liste noire** : ces joueurs n'entrent nulle part sur votre terrain.
+
+Sur un terrain fermé, on est repoussé au bord, et aucune téléportation n'y mène (perle de l'Ender, fruit de chorus, demande de téléportation).
 
 ## La protection
 
-Sur ton territoire, seuls les membres, selon leurs permissions, peuvent construire, ouvrir les coffres, utiliser portes, redstone, cultures et animaux. Et le monde n'y entre pas :
+Sur ton territoire, seuls les membres, selon leurs permissions (et les détenteurs d'un pass, pour ce qu'il permet), peuvent construire, ouvrir les coffres, utiliser portes, redstone, cultures et animaux. Les supports d'armure, les laisses, les bateaux et chevaux, la canne à pêche et les potions lancées sont protégés aussi. Et le monde n'y entre pas :
 
 - pas d'explosions, de feu qui se propage ni de pistons venus de l'extérieur ;
 - pas de liquides qui coulent depuis dehors ;
-- pas de monstres qui abîment les blocs ;
+- pas de monstres qui abîment les blocs ou piétinent les cultures ;
+- pas de flèches sur les boutons ni sur les blocs fragiles ;
 - **pas de combat entre joueurs**.
 
-En entrant sur un territoire, son nom s'affiche au-dessus de ta barre d'objets.
+En entrant sur le terrain d'un autre clan, son nom s'affiche au milieu de l'écran.
 
 ## Savoir ce qui est permis
 
-Le menu `/clan` a une page **Règles du territoire** : ce que **toi** tu peux faire sur le terrain du clan (construire, coffres, portes, redstone, cultures, animaux), ce que tu peux faire **là où tu te tiens**, et les protections toujours actives.
+Le menu `/clan` a une page **Règles du territoire** : ce que **toi** tu peux faire sur le terrain du clan, ce que tu peux faire **là où tu te tiens**, et les protections toujours actives.
 
 Une **parcelle louée** a ses propres règles : seuls son locataire et ceux qu'il autorise y agissent, jamais les permissions du clan. Voir [Les parcelles](/wiki/clans/parcelles).
+
+## Le journal
+
+Le bouton **Journal** montre les dernières actions du clan (chunks pris ou rendus, invitations, permissions, accès), et la banque l'**historique de la réserve**.
 
 === La banque | banque
 
@@ -128,9 +176,14 @@ Avec la permission **Parcelles** : dans `/clan`, choisis **Nouvelle parcelle**, 
 ## La location
 
 - Le clan fixe un **loyer par semaine**.
-- Un membre la loue : la **première semaine est payée tout de suite**, puis le loyer est prélevé chaque semaine sur son argent et versé à la réserve.
+- Un membre la loue (ou **n'importe quel joueur**, si le clan l'ouvre à tous : un panneau **[Louer]** dans la parcelle sert de guichet) : la **première semaine est payée tout de suite**, puis le loyer est prélevé chaque semaine sur son argent et versé à la réserve. Un rappel arrive 2 jours avant ; un loyer impayé laisse **une semaine de grâce**.
 - Une fois louée, **seul le locataire** (et ceux qu'il choisit) peut y agir : les permissions du clan ne s'y appliquent plus.
 - Une parcelle louée ne peut pas être supprimée ; un membre qui quitte le clan perd ses locations.
+- Si le clan perd le chunk d'une parcelle louée, le locataire est remboursé du reste de sa semaine.
+
+## L'accès à une parcelle
+
+Une parcelle peut aussi avoir ses propres règles : **réservée** (seuls ceux que le clan choisit y agissent, comme une salle des coffres d'officiers), **fermée**, ou **à pass** (avec son propre prix).
 
 === Le tag du clan | tag
 
