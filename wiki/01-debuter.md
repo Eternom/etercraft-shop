@@ -103,32 +103,52 @@ Fais un **clic droit** sur une quête dans le menu de ta guilde : elle s'affiche
 
 `/sidebar` masque ou réaffiche le tableau de bord, sur tous les serveurs.
 
-=== Les lobbys | lobbies
+=== Le village (lobbys) | lobbies
 
 ## L'arrivée
 
-En te connectant, tu arrives sur le **lobby le moins rempli**. Pas de dégâts, pas de faim : on y est en sécurité.
+En te connectant, tu arrives sur le **lobby le moins rempli**, sur la place du village. Pas de dégâts, pas de faim : on y est en sécurité. La première fois, une **visite guidée** te montre les lieux importants (`/visite`, `/visite passer` pour l'arrêter).
+
+## Les lieux
+
+Le village a ses quartiers : la **Guilde** (métiers et quêtes), la **Banque**, la **Cathédrale** (annonces et tableaux d'honneur), le **Colisée**, le **Donjon**, les **Mines**, les **grottes**, la **Forêt enchantée**, le **Lac de pêche**, le **site d'Archéologie**, le **Cimetière**... Chacun a son ambiance : en entrant, son nom s'affiche.
+
+Chaque lieu visité est **découvert** : `/carte` montre ceux que tu connais, et t'y emmène d'un clic. Découvre-les tous pour une récompense. Certains lieux se méritent...
+
+## Les activités
+
+| Activité | Comment |
+|---|---|
+| **Pêche** | Au Lac, accroupis-toi face à l'eau, garde **Maj** enfoncé, et lâche-le quand ça mord. Les prises rares sont annoncées ! `/peche` : les plus belles prises du jour et du mois |
+| **Fouilles** | Au site d'Archéologie, clique plusieurs fois sur le sable suspect. Tes trouvailles vont dans ton musée : `/musee` |
+| **Parcours** | Dans les Mines et les grottes : marche sur le départ, le chrono démarre. Deux fois **Maj** pour revenir au dernier point. `/parcours <nom>` : le classement |
+| **Chasse aux têtes** | Des têtes sont cachées dans tout le village : clic droit dessus pour les trouver |
+| **Évènements** | Quand un évènement commence, une barre s'affiche en haut : rendez-vous à la Zone d'évènement |
+
+Rien de tout cela ne touche à ton inventaire : les prises et trouvailles sont des trophées.
 
 ## Se déplacer
 
 | Commande | Ce qu'elle fait |
 |---|---|
-| `/servers` | Le sélecteur de serveurs : la survie et les autres, avec le nombre de joueurs |
-| `/lobbies` | Choisir un lobby précis (pour rejoindre un ami) |
-| `/spawn` | Revenir au spawn du lobby |
+| `/servers` | Le sélecteur : la survie et les autres serveurs, leur remplissage, tes amis dessus, et **Reprendre** (le dernier serveur joué) |
+| `/lobbies` | Choisir un lobby (le moins rempli est conseillé) ou suivre un ami |
+| `/spawn` | Revenir sur la place du village |
+| `/carte` | La carte du village |
 | `/lobby` (`/hub`, `/l`) | Revenir au lobby depuis n'importe quel serveur |
-| `/visibility` | Masquer ou réafficher les autres joueurs (pour toi seulement) |
 
-Entrer dans un **portail du Nether** du lobby ouvre aussi le sélecteur de serveurs.
+Entrer dans un **portail du Nether** du lobby ouvre aussi le sélecteur. **Double saut** : appuie deux fois sur espace. Les **plaques** te propulsent, les **ascenseurs** montent quand tu sautes et descendent quand tu t'accroupis.
 
-## Pour s'amuser
+## Entre joueurs
 
-- **Double saut** : appuie deux fois sur espace.
-- **Plaques de lancement** : marche dessus pour être propulsé.
+- `/visibility` : qui tu vois au lobby (tous, tes amis et ton clan, le staff, personne).
+- **Clic droit sur un joueur** : son profil (temps de jeu, succès, clan), et l'ajouter en ami.
+- **Clic droit sur un banc** (escalier, dalle) : t'asseoir.
+- Les grades ont leurs effets : traînée du double saut, particules (voir [Les avantages](/wiki/boutique/avantages)).
 
 ## Ton inventaire
 
-Ton inventaire est le **même au lobby et en survie** : tu peux y utiliser tes objets. Il te suit d'un serveur à l'autre.
+Ton inventaire est le **même au lobby et en survie**. Il te suit d'un serveur à l'autre.
 
 === Passer la nuit | nuit
 
@@ -162,6 +182,8 @@ Presque tout se fait depuis le menu : **accroupi + F**, ou `/menu`. Les commande
 | `/sidebar` | Masquer ou réafficher le tableau de bord |
 | `/servers` · `/lobbies` | Choisir un serveur, un lobby |
 | `/spawn` · `/lobby` | Spawn du lobby, retour au lobby |
+| `/carte` · `/visite` | Carte du village, visite guidée |
+| `/peche` · `/musee` · `/parcours` | Pêche, musée des fouilles, parcours |
 
 ## Se déplacer
 

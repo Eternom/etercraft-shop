@@ -8,6 +8,7 @@
 
 lp creategroup aventurier
 lp group aventurier setweight 10
+lp group aventurier permission set eterhub.trail.coeur true
 lp group aventurier meta setprefix 10 "<dark_gray>[<#7FB3FF>Aventurier</#7FB3FF>]"
 lp group aventurier permission set eterchat.color true
 lp group aventurier permission set eteressential.craft true
@@ -18,6 +19,8 @@ lp group aventurier permission set eter.teleport.warmup.2 true
 
 lp creategroup heros
 lp group heros setweight 20
+lp group heros permission set eterhub.trail.note true
+lp group heros permission set eterhub.aura.enchantement true
 lp group heros parent add aventurier
 lp group heros meta setprefix 20 "<dark_gray>[<#B57BFF>Héros</#B57BFF>]"
 lp group heros permission set eteressential.anvil true
@@ -32,6 +35,8 @@ lp group heros permission set eterkit.kit.aventurier false
 
 lp creategroup legende
 lp group legende setweight 30
+lp group legende permission set eterhub.trail.totem true
+lp group legende permission set eterhub.aura.cerise true
 lp group legende parent add heros
 lp group legende meta setprefix 30 "<dark_gray>[<#FF7A00>Légende</#FF7A00>]"
 lp group legende permission set eteressential.back.death true
@@ -56,6 +61,8 @@ lp group legende permission set eterkit.kit.heros false
 
 lp creategroup guide
 lp group guide setweight 100
+lp group guide permission set eterhub.staff true
+lp group guide permission set eterhub.maintenance.bypass true
 lp group guide meta setprefix 100 "<dark_gray>[<#5BE38A>Guide</#5BE38A>]"
 lp group guide permission set eter.display.staff true
 lp group guide permission set eterchat.staff true
