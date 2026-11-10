@@ -8,7 +8,7 @@ Le monde ressource sert à **miner et explorer** sans abîmer ton monde : il est
 
 ## Le temps
 
-Depuis le menu (**Voyager → Monde ressource**) ou avec `/ressource` :
+Depuis le menu (**Voyager → Monde ressource**) ou avec `/resource` :
 
 | | |
 |---|---|

@@ -41,7 +41,7 @@ Plus ton rang est haut, plus tes **quêtes sont grandes et mieux payées** (jusq
 
 ## Les avantages du rang
 
-Ton rang te donne des **avantages dans le monde ressource** (seulement là-bas), de plus en plus forts : voir chaque métier ci-dessous, ou `/job avantages`.
+Ton rang te donne des **avantages dans le monde ressource** (seulement là-bas), de plus en plus forts : voir chaque métier ci-dessous, ou `/job perks`.
 
 === Les quêtes | quetes
 
@@ -91,7 +91,7 @@ Une quête du jour pas encore faite ? Échange-la contre une autre du même nive
 
 ## Ce qu'elles rapportent en plus
 
-Chaque quête donne aussi de l'XP au [pass de saison](/wiki/progression/pass-de-saison) et compte pour le [classement du mois](/wiki/progression/classements). `/job historique` montre tes quêtes des 7 derniers jours, `/job top` le classement de ton métier.
+Chaque quête donne aussi de l'XP au [pass de saison](/wiki/progression/pass-de-saison) et compte pour le [classement du mois](/wiki/progression/classements). `/job history` montre tes quêtes des 7 derniers jours, `/job top` le classement de ton métier.
 
 === Mineur | mineur
 

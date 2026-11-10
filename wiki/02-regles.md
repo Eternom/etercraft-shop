@@ -68,7 +68,7 @@ Un ban définitif est toujours validé par **deux** membres du staff.
 
 ## Faire appel
 
-Une sanction te semble injuste ? Fais appel depuis le menu (**Social → Mes appels**) ou avec `/appel` :
+Une sanction te semble injuste ? Fais appel depuis le menu (**Social → Mes appels**) ou avec `/appeal` :
 
 - tu y vois tes sanctions en cours et tes avertissements ;
 - **un appel par sanction**, en expliquant pourquoi ;

@@ -99,14 +99,14 @@ Rester immobile ne rapporte rien : seul le temps où tu joues vraiment compte. S
 
 **Objectifs de clan** : quand le palier moyen des membres de ton clan (3 membres au moins) atteint 10, puis 20, chaque membre gagne de l'XP.
 
-`/pass historique` te montre d'où vient ton XP des dernières 24 h.
+`/pass history` te montre d'où vient ton XP des dernières 24 h.
 
 ## Les récompenses
 
 Chaque palier a une récompense **gratuite**, et une **premium** pour les joueurs qui ont le pass premium. Les récompenses peuvent être de l'argent, des objets, des clés du monde ressource, ou l'accès pour un temps à des [outils portatifs](/wiki/boutique/outils-portatifs), à `/back` ou à un [kit](/wiki/progression/kits) : chaque pass donne l'accès au kit Aventurier (gratuit), Héros (premium) et Légende (premium, dernier palier).
 
 - **Tout réclamer** d'un clic depuis le menu, ou palier par palier. **Clic droit** sur un palier pour son détail.
-- Ce qui ne tient pas dans ton inventaire part dans ta **boîte du pass** (`/pass colis`), jamais par terre.
+- Ce qui ne tient pas dans ton inventaire part dans ta **boîte du pass** (`/pass box`), jamais par terre.
 - Après le 30e palier, des **paliers bonus** (un tous les 2 400 XP, 20 au plus) donnent de l'argent.
 - Les récompenses restent réclamables **7 jours après la fin du mois**.
 
@@ -132,13 +132,13 @@ Chaque jour, **3 défis du jour** ; chaque semaine, **3 défis de la semaine** e
 
 Pendant le pass [Les Épreuves](/wiki/progression/pass-de-saison), les défis et missions rapportent **50 % d'XP de pass en plus**.
 
-Retrouve-les dans le menu (**Progression → Défis**) ou avec `/defis`. Les défis réussis comptent pour le [classement du mois](/wiki/progression/classements).
+Retrouve-les dans le menu (**Progression → Défis**) ou avec `/challenges`. Les défis réussis comptent pour le [classement du mois](/wiki/progression/classements).
 
 === Les succès | succes
 
 ## 120 succès
 
-À retrouver dans le menu (**Progression → Succès**) ou avec `/succes`. Chacun a jusqu'à **5 niveaux** : chaque niveau débloqué rapporte de l'argent et des **points de succès**, qui forment un classement depuis toujours.
+À retrouver dans le menu (**Progression → Succès**) ou avec `/achievements`. Chacun a jusqu'à **5 niveaux** : chaque niveau débloqué rapporte de l'argent et des **points de succès**, qui forment un classement depuis toujours.
 
 | Catégorie | Exemples |
 |---|---|
@@ -188,7 +188,7 @@ Les gagnants sont prévenus où qu'ils soient, et annoncés sur tout le serveur.
 | Fortune | ton argent |
 | Clans du mois | le classement des clans : activité, travail, trésor et expansion ([voir le guide](/wiki/clans/tag)) |
 
-Retrouve-les tous dans **Progression → Classements**, ou avec `/classement`.
+Retrouve-les tous dans **Progression → Classements**, ou avec `/ranking`.
 
 ## Les statistiques
 

@@ -131,7 +131,7 @@ return [
             'slug' => 'ressources',
             'name' => 'Ressources',
             'icon' => 'bi bi-key',
-            'description' => '<p>Une clé = 30 minutes de monde ressource, à utiliser quand tu veux avec <b>/ressource</b>.</p>',
+            'description' => '<p>Une clé = 30 minutes de monde ressource, à utiliser quand tu veux avec <b>/resource</b>.</p>',
             'packages' => [
                 ['name' => 'Clé de monde ressource', 'short' => '30 minutes de monde ressource. Quantité au choix.', 'price' => 119, 'quantity' => true,
                     'commands' => [$run('purchase', ['eterresource givekey {player} {quantity}'])]],

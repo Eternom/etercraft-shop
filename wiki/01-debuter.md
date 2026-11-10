@@ -32,7 +32,7 @@ Accroupis-toi et appuie sur **F** : le [menu](/wiki/debuter/menu) ouvre tout le 
 
 ## Le guide de départ
 
-Les Premiers pas te guident pas à pas. Chaque étape réussie rapporte de l'argent, et la suivante s'affiche dans ton [tableau de bord](/wiki/debuter/tableau-de-bord), à droite de l'écran. Ils font partie de tes [succès](/wiki/progression/succes) (`/succes`).
+Les Premiers pas te guident pas à pas. Chaque étape réussie rapporte de l'argent, et la suivante s'affiche dans ton [tableau de bord](/wiki/debuter/tableau-de-bord), à droite de l'écran. Ils font partie de tes [succès](/wiki/progression/succes) (`/achievements`).
 
 | Étape | Ce qu'il faut faire |
 |---|---|
@@ -107,21 +107,21 @@ Fais un **clic droit** sur une quête dans le menu de ta guilde : elle s'affiche
 
 ## L'arrivée
 
-En te connectant, tu arrives sur le **lobby le moins rempli**, sur la place du village. Pas de dégâts, pas de faim : on y est en sécurité. La première fois, une **visite guidée** te montre les lieux importants (`/visite`, `/visite passer` pour l'arrêter).
+En te connectant, tu arrives sur le **lobby le moins rempli**, sur la place du village. Pas de dégâts, pas de faim : on y est en sécurité. La première fois, une **visite guidée** te montre les lieux importants (`/tour`, `/tour skip` pour l'arrêter).
 
 ## Les lieux
 
 Le village a ses quartiers : la **Guilde** (métiers et quêtes), la **Banque**, la **Cathédrale** (annonces et tableaux d'honneur), le **Colisée**, le **Donjon**, les **Mines**, les **grottes**, la **Forêt enchantée**, le **Lac de pêche**, le **site d'Archéologie**, le **Cimetière**... Chacun a son ambiance : en entrant, son nom s'affiche.
 
-Chaque lieu visité est **découvert** : `/carte` montre ceux que tu connais, et t'y emmène d'un clic. Découvre-les tous pour une récompense. Certains lieux se méritent...
+Chaque lieu visité est **découvert** : `/map` montre ceux que tu connais, et t'y emmène d'un clic. Découvre-les tous pour une récompense. Certains lieux se méritent...
 
 ## Les activités
 
 | Activité | Comment |
 |---|---|
-| **Pêche** | Au Lac, accroupis-toi face à l'eau, garde **Maj** enfoncé, et lâche-le quand ça mord. Les prises rares sont annoncées ! `/peche` : les plus belles prises du jour et du mois |
-| **Fouilles** | Au site d'Archéologie, clique plusieurs fois sur le sable suspect. Tes trouvailles vont dans ton musée : `/musee` |
-| **Parcours** | Dans les Mines et les grottes : marche sur le départ, le chrono démarre. Deux fois **Maj** pour revenir au dernier point. `/parcours <nom>` : le classement |
+| **Pêche** | Au Lac, accroupis-toi face à l'eau, garde **Maj** enfoncé, et lâche-le quand ça mord. Les prises rares sont annoncées ! `/fishing` : les plus belles prises du jour et du mois |
+| **Fouilles** | Au site d'Archéologie, clique plusieurs fois sur le sable suspect. Tes trouvailles vont dans ton musée : `/museum` |
+| **Parcours** | Dans les Mines et les grottes : marche sur le départ, le chrono démarre. Deux fois **Maj** pour revenir au dernier point. `/parkour <nom>` : le classement |
 | **Chasse aux têtes** | Des têtes sont cachées dans tout le village : clic droit dessus pour les trouver |
 | **Évènements** | Quand un évènement commence, une barre s'affiche en haut : rendez-vous à la Zone d'évènement |
 
@@ -134,7 +134,7 @@ Rien de tout cela ne touche à ton inventaire : les prises et trouvailles sont d
 | `/servers` | Le sélecteur : la survie et les autres serveurs, leur remplissage, tes amis dessus, et **Reprendre** (le dernier serveur joué) |
 | `/lobbies` | Choisir un lobby (le moins rempli est conseillé) ou suivre un ami |
 | `/spawn` | Revenir sur la place du village |
-| `/carte` | La carte du village |
+| `/map` | La carte du village |
 | `/lobby` (`/hub`, `/l`) | Revenir au lobby depuis n'importe quel serveur |
 
 Entrer dans un **portail du Nether** du lobby ouvre aussi le sélecteur. **Double saut** : appuie deux fois sur espace. Les **plaques** te propulsent, les **ascenseurs** montent quand tu sautes et descendent quand tu t'accroupis.
@@ -182,8 +182,8 @@ Presque tout se fait depuis le menu : **accroupi + F**, ou `/menu`. Les commande
 | `/sidebar` | Masquer ou réafficher le tableau de bord |
 | `/servers` · `/lobbies` | Choisir un serveur, un lobby |
 | `/spawn` · `/lobby` | Spawn du lobby, retour au lobby |
-| `/carte` · `/visite` | Carte du village, visite guidée |
-| `/peche` · `/musee` · `/parcours` | Pêche, musée des fouilles, parcours |
+| `/map` · `/tour` | Carte du village, visite guidée |
+| `/fishing` · `/museum` · `/parkour` | Pêche, musée des fouilles, parcours |
 
 ## Se déplacer
 
@@ -192,7 +192,7 @@ Presque tout se fait depuis le menu : **accroupi + F**, ou `/menu`. Les commande
 | `/homes` | Tes homes |
 | `/sethome [nom]` · `/home [nom]` · `/delhome <nom>` | Poser, rejoindre, supprimer un home |
 | `/rtp` | Téléportation aléatoire |
-| `/ressource` | Le monde ressource |
+| `/resource` | Le monde ressource |
 | `/tpa <joueur>` · `/tpahere <joueur>` | Demander à rejoindre un joueur, ou qu'il vienne |
 | `/tpaccept` · `/tpdeny` · `/tpacancel` | Accepter, refuser, annuler une demande |
 | `/tptoggle` | Qui peut t'envoyer une demande : tout le monde, amis et clan, personne |
@@ -207,9 +207,9 @@ Presque tout se fait depuis le menu : **accroupi + F**, ou `/menu`. Les commande
 | `/kit` | Tes kits (un par semaine) |
 | `/vote` | Le lien vers la page de vote du site |
 | `/pass` | Pass de saison |
-| `/defis` | Défis du jour et de la semaine |
-| `/succes` | Tes succès |
-| `/classement` | Les classements |
+| `/challenges` | Défis du jour et de la semaine |
+| `/achievements` | Tes succès |
+| `/ranking` | Les classements |
 | `/stats [joueur]` | Les statistiques des joueurs |
 | `/clan` | Ton clan |
 
@@ -223,7 +223,7 @@ Presque tout se fait depuis le menu : **accroupi + F**, ou `/menu`. Les commande
 | `/ignore [joueur]` | Ignorer un joueur (seul : la liste) |
 | `/notifications` | Couper ou remettre le son des mentions |
 | `/report <joueur>` | Signaler un joueur |
-| `/appel` | Faire appel d'une sanction |
+| `/appeal` | Faire appel d'une sanction |
 
 ## Outils portatifs
 
@@ -265,4 +265,4 @@ Signale-le avec `/report <joueur>` : voir [Signaler un joueur](/wiki/regles/sign
 
 ## J'ai été sanctionné à tort
 
-Fais appel avec `/appel` : voir [Sanctions et appels](/wiki/regles/sanctions-et-appels).
+Fais appel avec `/appeal` : voir [Sanctions et appels](/wiki/regles/sanctions-et-appels).

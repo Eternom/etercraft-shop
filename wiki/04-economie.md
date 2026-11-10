@@ -31,7 +31,7 @@ En mourant, tu perds **5 %** de l'argent que tu as sur toi. L'argent de ton **co
 
 ## Les plus riches
 
-**Économie → Les plus riches** dans le menu, ou le classement **Fortune** dans `/classement`.
+**Économie → Les plus riches** dans le menu, ou le classement **Fortune** dans `/ranking`.
 
 === Bientôt : boutiques et ventes | boutiques
 
