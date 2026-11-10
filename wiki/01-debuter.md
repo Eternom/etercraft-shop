@@ -119,7 +119,7 @@ Chaque lieu visité est **découvert** : `/map` montre ceux que tu connais, et t
 
 | Activité | Comment |
 |---|---|
-| **Pêche** | Au Lac de pêche, sors ta **canne à pêche** (ailleurs, la ligne ne part pas). Chaque prise est un poisson du lac, avec sa rareté et son poids, qui va dans ton inventaire. Les prises rares sont annoncées ! `/fishing` : les plus belles prises du jour et du mois |
+| **Pêche** | Au Lac de pêche, sors ta **canne à pêche** (ailleurs, la ligne ne part pas). Chaque prise est un poisson du lac, avec sa rareté et son poids, qui va dans ton inventaire. Les prises rares sont annoncées ! Le **poissonnier** du lac rachète tes poissons (selon leur rareté et leur poids, le poisson du jour payé double). Une canne avec **Chance de la mer** attire les poissons rares. `/fishing` : classements et carnet de pêche |
 | **Fouilles** | Au site d'Archéologie, clique plusieurs fois sur le sable suspect. Tes trouvailles vont dans ton musée : `/museum` |
 | **Parcours** | Dans les Mines et les grottes : marche sur le départ, le chrono démarre. Deux fois **Maj** pour revenir au dernier point. `/parkour <nom>` : le classement |
 | **Chasse aux têtes** | Des têtes sont cachées dans tout le village : clic droit dessus pour les trouver |
