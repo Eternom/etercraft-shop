@@ -123,6 +123,7 @@ Chaque lieu visité est **découvert** : `/map` montre ceux que tu connais, et t
 | **Fouilles** | Au site d'Archéologie, clique plusieurs fois sur le sable suspect. Tes trouvailles vont dans ton musée : `/museum` |
 | **Parcours** | Dans les Mines et les grottes : marche sur le départ, le chrono démarre. Deux fois **Maj** pour revenir au dernier point. `/parkour <nom>` : le classement |
 | **Chasse aux têtes** | Des têtes sont cachées dans tout le village : clic droit dessus pour les trouver. Certaines sont **rares**, des **paliers** donnent des récompenses, et finir la chasse est annoncé à tout le monde avec ton rang. `/heads` montre, lieu par lieu, ce qu'il te manque ; `/heads hint` te dit si tu as chaud ou froid quand il t'en reste peu. Les têtes que tu n'as pas trouvées scintillent quand tu passes tout près. À Halloween et à Noël, des chasses spéciales apparaissent le temps de la fête |
+| **Récoltes** | Aux Champs, casse le blé, les carottes, les patates et les betteraves **mûrs** dans les parcelles : ils se replantent et repoussent. Dans les **Vignes**, un clic droit sur les fleurs cueille une grappe. Une récolte peut être **belle** ou **dorée** ; chaque jour, une **parcelle du jour** paie double. Le **fermier** et le **vigneron** rachètent tes récoltes. Il y a un quota par jour : c'est une activité du quotidien. `/harvest` : ton carnet et la parcelle du jour |
 | **Évènements** | Quand un évènement commence, une barre s'affiche en haut : rendez-vous à la Zone d'évènement |
 
 Les poissons pêchés sont à toi (ils te suivent en survie). Les trouvailles des fouilles, elles, vont dans ton musée.
@@ -185,6 +186,7 @@ Presque tout se fait depuis le menu : **accroupi + F**, ou `/menu`. Les commande
 | `/map` · `/tour` | Carte du village, visite guidée |
 | `/fishing` · `/museum` · `/parkour` | Pêche, musée des fouilles, parcours |
 | `/heads` · `/heads hint` | Chasse aux têtes, indice chaud / froid |
+| `/harvest` | Carnet des récoltes, parcelle du jour |
 
 ## Se déplacer
 
