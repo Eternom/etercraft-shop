@@ -119,13 +119,13 @@ Chaque lieu visité est **découvert** : `/map` montre ceux que tu connais, et t
 
 | Activité | Comment |
 |---|---|
-| **Pêche** | Au Lac, accroupis-toi face à l'eau, garde **Maj** enfoncé, et lâche-le quand ça mord. Les prises rares sont annoncées ! `/fishing` : les plus belles prises du jour et du mois |
+| **Pêche** | Au Lac de pêche, sors ta **canne à pêche** (ailleurs, la ligne ne part pas). Chaque prise est un poisson du lac, avec sa rareté et son poids, qui va dans ton inventaire. Les prises rares sont annoncées ! `/fishing` : les plus belles prises du jour et du mois |
 | **Fouilles** | Au site d'Archéologie, clique plusieurs fois sur le sable suspect. Tes trouvailles vont dans ton musée : `/museum` |
 | **Parcours** | Dans les Mines et les grottes : marche sur le départ, le chrono démarre. Deux fois **Maj** pour revenir au dernier point. `/parkour <nom>` : le classement |
 | **Chasse aux têtes** | Des têtes sont cachées dans tout le village : clic droit dessus pour les trouver |
 | **Évènements** | Quand un évènement commence, une barre s'affiche en haut : rendez-vous à la Zone d'évènement |
 
-Rien de tout cela ne touche à ton inventaire : les prises et trouvailles sont des trophées.
+Les poissons pêchés sont à toi (ils te suivent en survie). Les trouvailles des fouilles, elles, vont dans ton musée.
 
 ## Se déplacer
 
